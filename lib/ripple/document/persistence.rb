@@ -20,6 +20,7 @@ module Ripple
   module Document
     module Persistence
       extend ActiveSupport::Concern
+      # This should be a config option instead of a constant
       MAX_JSON_SIZE = 1024 # bytes
 
       module ClassMethods

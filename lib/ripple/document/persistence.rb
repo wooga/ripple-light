@@ -1,20 +1,4 @@
 require 'active_support/concern'
-require 'snappy'
-
-# This can be moved to our Rails application
-module ZipSerializer
-  extend self
-
-  def dump(obj)
-    Snappy.deflate obj.to_json
-  end
-
-  def load(binary)
-    JSON.parse(Snappy.inflate binary)
-  end
-end
-
-Riak::Serializers['application/zip'] = ZipSerializer
 
 module Ripple
   module Document

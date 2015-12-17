@@ -1,9 +1,26 @@
 require 'active_support/concern'
+require 'snappy'
+
+# This can be moved to our Rails application
+module ZipSerializer
+  extend self
+
+  def dump(obj)
+    Snappy.deflate obj.to_json
+  end
+
+  def load(binary)
+    JSON.parse(Snappy.inflate binary)
+  end
+end
+
+Riak::Serializers['application/zip'] = ZipSerializer
 
 module Ripple
   module Document
     module Persistence
       extend ActiveSupport::Concern
+      MAX_JSON_SIZE = 1024 # bytes
 
       module ClassMethods
 
@@ -90,7 +107,12 @@ module Ripple
 
       def update_robject
         robject.key = key if robject.key != key
-        robject.content_type = 'application/json'
+        if attributes_for_persistence.to_json.size > MAX_JSON_SIZE
+          robject.content_type = 'application/zip'
+        else
+          robject.content_type = 'application/json'
+        end
+
         robject.data = attributes_for_persistence
       end
 

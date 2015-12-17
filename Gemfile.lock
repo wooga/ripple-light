@@ -6,6 +6,7 @@ PATH
       activesupport (~> 3.2.12)
       json (~> 1.8.0)
       riak-client (~> 1.1.1)
+      snappy (~> 0.0.12)
 
 GEM
   remote: http://rubygems.org/
@@ -73,6 +74,7 @@ GEM
     rspec-expectations (2.8.0)
       diff-lcs (~> 1.1.2)
     rspec-mocks (2.8.0)
+    snappy (0.0.12)
 
 PLATFORMS
   ruby

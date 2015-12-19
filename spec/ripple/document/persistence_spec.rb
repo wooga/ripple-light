@@ -16,7 +16,7 @@ describe Ripple::Document::Persistence do
     @user.text = text
     @user.save
 
-    @user.robject.content.content_type.should == "application/zip"
+    @user.robject.content.content_type.should == "application/x-snappy"
     @user.robject.content.data.should == { "t" => text }
 
     text = "a" * (Ripple::Document::Persistence::MAX_JSON_SIZE / 2)

@@ -1,7 +1,7 @@
 require 'snappy'
 
 module Ripple
-  module ZipSerializer
+  module SnappySerializer
     extend self
 
     def dump(obj)
@@ -14,4 +14,4 @@ module Ripple
   end
 end
 
-Riak::Serializers['application/zip'] = Ripple::ZipSerializer
+Riak::Serializers['application/x-snappy'] = Ripple::SnappySerializer

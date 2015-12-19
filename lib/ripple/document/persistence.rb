@@ -92,13 +92,14 @@ module Ripple
 
       def update_robject
         robject.key = key if robject.key != key
-        if attributes_for_persistence.to_json.size > MAX_JSON_SIZE
-          robject.content_type = 'application/zip'
+        data = attributes_for_persistence
+        if data.to_json.size > MAX_JSON_SIZE
+          robject.content_type = 'application/x-snappy'
         else
           robject.content_type = 'application/json'
         end
 
-        robject.data = attributes_for_persistence
+        robject.data = data
       end
 
       private

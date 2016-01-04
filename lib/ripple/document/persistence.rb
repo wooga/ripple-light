@@ -4,8 +4,6 @@ module Ripple
   module Document
     module Persistence
       extend ActiveSupport::Concern
-      # This should be a config option instead of a constant
-      MAX_JSON_SIZE = 1024 # bytes
 
       module ClassMethods
 
@@ -92,14 +90,9 @@ module Ripple
 
       def update_robject
         robject.key = key if robject.key != key
-        data = attributes_for_persistence
-        if data.to_json.size > MAX_JSON_SIZE
-          robject.content_type = 'application/x-snappy'
-        else
-          robject.content_type = 'application/json'
-        end
+        robject.content_type = 'application/x-snappy'
 
-        robject.data = data
+        robject.data = attributes_for_persistence
       end
 
       private

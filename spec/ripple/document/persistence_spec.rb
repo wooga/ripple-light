@@ -11,19 +11,12 @@ describe Ripple::Document::Persistence do
     @user = User.new
   end
 
-  it "should compress the data if larger than MAX_JSON_SIZE" do
-    text = "a" * Ripple::Document::Persistence::MAX_JSON_SIZE
+  it "uses the application/x-snappy content type to serialize the data" do
+    text = "a"
     @user.text = text
     @user.save
 
     @user.robject.content.content_type.should == "application/x-snappy"
-    @user.robject.content.data.should == { "t" => text }
-
-    text = "a" * (Ripple::Document::Persistence::MAX_JSON_SIZE / 2)
-    @user.text = text
-    @user.save
-
-    @user.robject.content.content_type.should == "application/json"
     @user.robject.content.data.should == { "t" => text }
   end
 end

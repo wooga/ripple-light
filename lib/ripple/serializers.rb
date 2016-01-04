@@ -5,11 +5,11 @@ module Ripple
     extend self
 
     def dump(obj)
-      Snappy.deflate obj.to_json
+      Snappy.deflate obj.to_json(Riak.json_options)
     end
 
     def load(binary)
-      JSON.parse(Snappy.inflate binary)
+      Riak::JSON.parse(Snappy.inflate binary)
     end
   end
 end

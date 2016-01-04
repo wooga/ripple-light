@@ -1,0 +1,1503 @@
+{
+  "badges": 2284,
+  "coins": 27447,
+  "cash": 78,
+  "unlimited_energy_tokens": 0,
+  "prestige": 46423,
+  "max_prestige": 46423,
+  "flags": 9,
+  "achievements": [
+    "PP_10",
+    "PP_07",
+    "PP_01",
+    "PP_02",
+    "PP_04",
+    "PP_05",
+    "PP_08",
+    "PP_11",
+    "PP_13",
+    "PP_14",
+    "PP_16",
+    "PP_17",
+    "PP_19",
+    "PP_22",
+    "PP_23",
+    "PP_24",
+    "PP_20",
+    "PP_06",
+    "PP_15",
+    "PP_09",
+    "PP_12",
+    "PP_21",
+    "PP_18"
+  ],
+  "mission": 0,
+  "ad_transactions": [
+
+  ],
+  "session_count": 2651,
+  "badges_at_progression_reset": 2250,
+  "scenes_played": 612,
+  "chapters_unlocked": 3,
+  "scores_gained": 304934700,
+  "energy": {
+    "amount": 15,
+    "next_refill_at": 0,
+    "unlimited_to": 0
+  },
+  "inventory": [
+    {
+      "cat": "material",
+      "id": 25,
+      "amount": 222
+    },
+    {
+      "cat": "material",
+      "id": 8,
+      "amount": 4
+    },
+    {
+      "cat": "material",
+      "id": 12,
+      "amount": 2
+    },
+    {
+      "cat": "material",
+      "id": 2,
+      "amount": 25
+    },
+    {
+      "cat": "material",
+      "id": 4,
+      "amount": 30
+    },
+    {
+      "cat": "material",
+      "id": 7,
+      "amount": 30
+    },
+    {
+      "cat": "material",
+      "id": 6,
+      "amount": 16
+    },
+    {
+      "cat": "material",
+      "id": 20,
+      "amount": 14
+    },
+    {
+      "cat": "material",
+      "id": 1,
+      "amount": 15
+    }
+  ],
+  "soft_cap_inventory": {
+
+  },
+  "family_task_set": {
+    "last_skipped": 0,
+    "slots": {
+      "easy": {
+        "generator_state": null,
+        "task": null
+      },
+      "medium": {
+        "generator_state": null,
+        "task": null
+      },
+      "hard": {
+        "generator_state": null,
+        "task": null
+      }
+    }
+  },
+  "iso_item_inventory": {
+    "items": [
+
+    ],
+    "purchased": 3,
+    "unlocked": true
+  },
+  "rewardable_iso_inventory": {
+    "items": {
+
+    }
+  },
+  "collection_inventory": {
+    "items": {
+      "item_27": 2,
+      "item_17": 1,
+      "item_9": 1,
+      "item_13": 1,
+      "item_21": 3,
+      "item_6": 3,
+      "item_24": 1,
+      "item_2": 3
+    },
+    "pending_delivery": {
+      "item_id": "item_20",
+      "delivery_at": 1441400546
+    },
+    "rewards_claimed": [
+      {
+        "iso_item": 116
+      },
+      {
+        "iso_item": 117
+      }
+    ],
+    "completions": {
+      "collection_2": 2,
+      "collection_1": 4,
+      "collection_5": 3,
+      "collection_3": 1,
+      "collection_4": 1
+    },
+    "requested_collection_items": {
+
+    }
+  },
+  "regions": [
+    [
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "scenes": [
+    {
+      "id": "01-01-01",
+      "hscore": 651764,
+      "mastery": 18672987,
+      "clues": 3
+    },
+    {
+      "id": "01-01-02",
+      "hscore": 646149,
+      "mastery": 7825196,
+      "clues": 3
+    },
+    {
+      "id": "01-01-03",
+      "hscore": 629539,
+      "mastery": 5483895,
+      "clues": 3
+    },
+    {
+      "id": "01-01-04",
+      "hscore": 650304,
+      "mastery": 10022725,
+      "clues": 3
+    },
+    {
+      "id": "01-01-05",
+      "hscore": 640951,
+      "mastery": 12361310,
+      "clues": 3
+    },
+    {
+      "id": "01-01-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-02-01",
+      "hscore": 653379,
+      "mastery": 18418232,
+      "clues": 3
+    },
+    {
+      "id": "01-02-02",
+      "hscore": 633352,
+      "mastery": 7197523,
+      "clues": 3
+    }
+  ],
+  "iso_items": [
+    {
+      "x": 31,
+      "y": 26,
+      "type_id": 88,
+      "level": 3,
+      "contract_finished_at": 1441324860
+    },
+    {
+      "x": 32,
+      "y": 24,
+      "type_id": 17
+    },
+    {
+      "x": 30,
+      "y": 29,
+      "type_id": 17
+    },
+    {
+      "x": 30,
+      "y": 26,
+      "type_id": 15
+    },
+    {
+      "x": 32,
+      "y": 25,
+      "type_id": 92
+    },
+    {
+      "x": 34,
+      "y": 23,
+      "type_id": 92
+    },
+    {
+      "x": 33,
+      "y": 24,
+      "type_id": 83
+    },
+    {
+      "x": 32,
+      "y": 20,
+      "type_id": 25,
+      "level": 3,
+      "contract_finished_at": 1441324860
+    },
+    {
+      "x": 27,
+      "y": 32,
+      "type_id": 71,
+      "level": 3,
+      "contract_finished_at": 1441324862
+    },
+    {
+      "x": 29,
+      "y": 20,
+      "type_id": 66,
+      "level": 3,
+      "contract_finished_at": 1441324858
+    },
+    {
+      "x": 32,
+      "y": 23,
+      "type_id": 45
+    },
+    {
+      "x": 31,
+      "y": 23,
+      "type_id": 18
+    },
+    {
+      "x": 31,
+      "y": 24,
+      "type_id": 16
+    },
+    {
+      "x": 30,
+      "y": 28,
+      "type_id": 17
+    },
+    {
+      "x": 30,
+      "y": 27,
+      "type_id": 17
+    },
+    {
+      "x": 30,
+      "y": 25,
+      "type_id": 17
+    },
+    {
+      "x": 30,
+      "y": 24,
+      "type_id": 17
+    },
+    {
+      "x": 30,
+      "y": 23,
+      "type_id": 17
+    },
+    {
+      "x": 26,
+      "y": 34,
+      "type_id": 17
+    },
+    {
+      "x": 26,
+      "y": 33,
+      "type_id": 17
+    },
+    {
+      "x": 26,
+      "y": 32,
+      "type_id": 17
+    },
+    {
+      "x": 26,
+      "y": 31,
+      "type_id": 17
+    },
+    {
+      "x": 27,
+      "y": 31,
+      "type_id": 17
+    },
+    {
+      "x": 28,
+      "y": 31,
+      "type_id": 17
+    },
+    {
+      "x": 29,
+      "y": 31,
+      "type_id": 17
+    },
+    {
+      "x": 27,
+      "y": 28,
+      "type_id": 67,
+      "level": 3,
+      "contract_finished_at": 1441324862
+    },
+    {
+      "x": 33,
+      "y": 23,
+      "type_id": 59
+    },
+    {
+      "x": 28,
+      "y": 26,
+      "type_id": 21
+    },
+    {
+      "x": 28,
+      "y": 24,
+      "type_id": 44
+    },
+    {
+      "x": 29,
+      "y": 23,
+      "type_id": 48
+    },
+    {
+      "x": 23,
+      "y": 32,
+      "type_id": 51,
+      "level": 3,
+      "contract_finished_at": 1441324863
+    },
+    {
+      "x": 27,
+      "y": 20,
+      "type_id": 83
+    },
+    {
+      "x": 27,
+      "y": 22,
+      "type_id": 78
+    },
+    {
+      "x": 24,
+      "y": 30,
+      "type_id": 79
+    },
+    {
+      "x": 25,
+      "y": 28,
+      "type_id": 79
+    },
+    {
+      "x": 26,
+      "y": 30,
+      "type_id": 45
+    },
+    {
+      "x": 27,
+      "y": 24,
+      "type_id": 45
+    },
+    {
+      "x": 26,
+      "y": 26,
+      "type_id": 79
+    },
+    {
+      "x": 20,
+      "y": 32,
+      "type_id": 68,
+      "level": 3,
+      "contract_finished_at": 1441324865
+    },
+    {
+      "x": 26,
+      "y": 25,
+      "type_id": 5
+    },
+    {
+      "x": 22,
+      "y": 30,
+      "type_id": 60
+    },
+    {
+      "x": 20,
+      "y": 30,
+      "type_id": 60
+    },
+    {
+      "x": 23,
+      "y": 28,
+      "type_id": 76
+    },
+    {
+      "x": 20,
+      "y": 27,
+      "type_id": 52,
+      "level": 3,
+      "contract_finished_at": 1441324867
+    },
+    {
+      "x": 23,
+      "y": 25,
+      "type_id": 4,
+      "level": 3,
+      "contract_finished_at": 1441324864
+    },
+    {
+      "x": 24,
+      "y": 22,
+      "type_id": 69,
+      "level": 3,
+      "contract_finished_at": 1441324859
+    },
+    {
+      "x": 17,
+      "y": 37,
+      "type_id": 70,
+      "level": 3,
+      "contract_finished_at": 1441324870
+    },
+    {
+      "x": 17,
+      "y": 34,
+      "type_id": 53,
+      "level": 3,
+      "contract_finished_at": 1441324870
+    },
+    {
+      "x": 17,
+      "y": 31,
+      "type_id": 57,
+      "level": 3,
+      "contract_finished_at": 1441324865
+    },
+    {
+      "x": 15,
+      "y": 10,
+      "type_id": 1000,
+      "level": 19
+    },
+    {
+      "x": 21,
+      "y": 25,
+      "type_id": 108
+    },
+    {
+      "x": 15,
+      "y": 38,
+      "type_id": 128
+    },
+    {
+      "x": 29,
+      "y": 19,
+      "type_id": 17
+    },
+    {
+      "x": 28,
+      "y": 19,
+      "type_id": 17
+    },
+    {
+      "x": 12,
+      "y": 37,
+      "type_id": 112,
+      "level": 3,
+      "contract_finished_at": 1441324881
+    },
+    {
+      "x": 25,
+      "y": 20,
+      "type_id": 108
+    },
+    {
+      "x": 22,
+      "y": 23,
+      "type_id": 82
+    },
+    {
+      "x": 11,
+      "y": 39,
+      "type_id": 45
+    },
+    {
+      "x": 15,
+      "y": 36,
+      "type_id": 65
+    },
+    {
+      "x": 10,
+      "y": 37,
+      "type_id": 128
+    },
+    {
+      "x": 15,
+      "y": 34,
+      "type_id": 33
+    },
+    {
+      "x": 13,
+      "y": 35,
+      "type_id": 61
+    },
+    {
+      "x": 10,
+      "y": 35,
+      "type_id": 30
+    },
+    {
+      "x": 10,
+      "y": 33,
+      "type_id": 79
+    },
+    {
+      "x": 12,
+      "y": 33,
+      "type_id": 60
+    },
+    {
+      "x": 10,
+      "y": 31,
+      "type_id": 76
+    },
+    {
+      "x": 10,
+      "y": 30,
+      "type_id": 17
+    },
+    {
+      "x": 11,
+      "y": 30,
+      "type_id": 17
+    },
+    {
+      "x": 12,
+      "y": 30,
+      "type_id": 17
+    },
+    {
+      "x": 12,
+      "y": 31,
+      "type_id": 17
+    },
+    {
+      "x": 12,
+      "y": 32,
+      "type_id": 17
+    },
+    {
+      "x": 13,
+      "y": 32,
+      "type_id": 17
+    },
+    {
+      "x": 14,
+      "y": 32,
+      "type_id": 17
+    },
+    {
+      "x": 14,
+      "y": 33,
+      "type_id": 17
+    },
+    {
+      "x": 14,
+      "y": 34,
+      "type_id": 17
+    },
+    {
+      "x": 15,
+      "y": 33,
+      "type_id": 17
+    },
+    {
+      "x": 16,
+      "y": 33,
+      "type_id": 17
+    },
+    {
+      "x": 16,
+      "y": 32,
+      "type_id": 17
+    },
+    {
+      "x": 15,
+      "y": 32,
+      "type_id": 17
+    },
+    {
+      "x": 27,
+      "y": 19,
+      "type_id": 17
+    },
+    {
+      "x": 13,
+      "y": 29,
+      "type_id": 113,
+      "level": 3,
+      "contract_finished_at": 1441324870
+    },
+    {
+      "x": 10,
+      "y": 28,
+      "type_id": 33
+    },
+    {
+      "x": 10,
+      "y": 26,
+      "type_id": 78
+    },
+    {
+      "x": 18,
+      "y": 28,
+      "type_id": 82
+    },
+    {
+      "x": 19,
+      "y": 30,
+      "type_id": 45
+    },
+    {
+      "x": 16,
+      "y": 28,
+      "type_id": 27
+    },
+    {
+      "x": 14,
+      "y": 27,
+      "type_id": 65
+    },
+    {
+      "x": 12,
+      "y": 27,
+      "type_id": 30
+    },
+    {
+      "x": 16,
+      "y": 27,
+      "type_id": 42
+    },
+    {
+      "x": 5,
+      "y": 25,
+      "type_id": 1001,
+      "level": 19
+    },
+    {
+      "x": 17,
+      "y": 25,
+      "type_id": 35,
+      "level": 3,
+      "contract_finished_at": 1441324866
+    },
+    {
+      "x": 10,
+      "y": 24,
+      "type_id": 96
+    },
+    {
+      "x": 12,
+      "y": 25,
+      "type_id": 128
+    },
+    {
+      "x": 14,
+      "y": 25,
+      "type_id": 33
+    },
+    {
+      "x": 5,
+      "y": 23,
+      "type_id": 82
+    },
+    {
+      "x": 27,
+      "y": 10,
+      "type_id": 166,
+      "level": 3,
+      "contract_finished_at": 1441324855
+    },
+    {
+      "x": 5,
+      "y": 21,
+      "type_id": 128
+    },
+    {
+      "x": 27,
+      "y": 13,
+      "type_id": 183,
+      "level": 3,
+      "contract_finished_at": 1441324855
+    },
+    {
+      "x": 7,
+      "y": 23,
+      "type_id": 137
+    },
+    {
+      "x": 27,
+      "y": 16,
+      "type_id": 211,
+      "level": 3,
+      "contract_finished_at": 1441324854
+    },
+    {
+      "x": 7,
+      "y": 21,
+      "type_id": 128
+    },
+    {
+      "x": 9,
+      "y": 21,
+      "type_id": 95
+    },
+    {
+      "x": 11,
+      "y": 21,
+      "type_id": 125
+    },
+    {
+      "x": 9,
+      "y": 23,
+      "type_id": 94
+    },
+    {
+      "x": 9,
+      "y": 24,
+      "type_id": 145
+    },
+    {
+      "x": 25,
+      "y": 18,
+      "type_id": 148
+    },
+    {
+      "x": 11,
+      "y": 19,
+      "type_id": 148
+    },
+    {
+      "x": 10,
+      "y": 23,
+      "type_id": 145
+    },
+    {
+      "x": 11,
+      "y": 23,
+      "type_id": 145
+    },
+    {
+      "x": 12,
+      "y": 23,
+      "type_id": 94
+    },
+    {
+      "x": 12,
+      "y": 24,
+      "type_id": 100
+    },
+    {
+      "x": 11,
+      "y": 18,
+      "type_id": 145
+    },
+    {
+      "x": 12,
+      "y": 18,
+      "type_id": 129
+    },
+    {
+      "x": 11,
+      "y": 16,
+      "type_id": 79
+    },
+    {
+      "x": 11,
+      "y": 15,
+      "type_id": 145
+    },
+    {
+      "x": 12,
+      "y": 15,
+      "type_id": 149
+    },
+    {
+      "x": 26,
+      "y": 17,
+      "type_id": 150
+    },
+    {
+      "x": 13,
+      "y": 15,
+      "type_id": 149
+    },
+    {
+      "x": 13,
+      "y": 16,
+      "type_id": 149
+    },
+    {
+      "x": 13,
+      "y": 17,
+      "type_id": 149
+    },
+    {
+      "x": 13,
+      "y": 18,
+      "type_id": 149
+    },
+    {
+      "x": 13,
+      "y": 19,
+      "type_id": 149
+    },
+    {
+      "x": 13,
+      "y": 20,
+      "type_id": 149
+    },
+    {
+      "x": 13,
+      "y": 21,
+      "type_id": 145
+    },
+    {
+      "x": 13,
+      "y": 22,
+      "type_id": 93
+    },
+    {
+      "x": 13,
+      "y": 23,
+      "type_id": 9
+    },
+    {
+      "x": 13,
+      "y": 24,
+      "type_id": 221
+    },
+    {
+      "x": 25,
+      "y": 16,
+      "type_id": 221
+    },
+    {
+      "x": 14,
+      "y": 23,
+      "type_id": 220
+    },
+    {
+      "x": 14,
+      "y": 21,
+      "type_id": 220
+    },
+    {
+      "x": 14,
+      "y": 19,
+      "type_id": 24
+    },
+    {
+      "x": 5,
+      "y": 17,
+      "type_id": 215,
+      "level": 3,
+      "contract_finished_at": 1441324888
+    },
+    {
+      "x": 14,
+      "y": 17,
+      "type_id": 230
+    },
+    {
+      "x": 25,
+      "y": 17,
+      "type_id": 94
+    },
+    {
+      "x": 16,
+      "y": 22,
+      "type_id": 228,
+      "level": 3,
+      "contract_finished_at": 1441324868
+    },
+    {
+      "x": 19,
+      "y": 23,
+      "type_id": 95
+    },
+    {
+      "x": 14,
+      "y": 15,
+      "type_id": 214
+    },
+    {
+      "x": 8,
+      "y": 18,
+      "type_id": 122
+    },
+    {
+      "x": 16,
+      "y": 20,
+      "type_id": 214
+    },
+    {
+      "x": 16,
+      "y": 18,
+      "type_id": 122
+    },
+    {
+      "x": 16,
+      "y": 16,
+      "type_id": 122
+    },
+    {
+      "x": 16,
+      "y": 15,
+      "type_id": 47
+    },
+    {
+      "x": 17,
+      "y": 15,
+      "type_id": 47
+    },
+    {
+      "x": 18,
+      "y": 21,
+      "type_id": 47
+    },
+    {
+      "x": 19,
+      "y": 22,
+      "type_id": 47
+    },
+    {
+      "x": 19,
+      "y": 21,
+      "type_id": 47
+    },
+    {
+      "x": 18,
+      "y": 19,
+      "type_id": 214
+    },
+    {
+      "x": 18,
+      "y": 17,
+      "type_id": 119
+    },
+    {
+      "x": 20,
+      "y": 11,
+      "type_id": 236,
+      "level": 3,
+      "contract_finished_at": 1441324852
+    },
+    {
+      "x": 18,
+      "y": 15,
+      "type_id": 137
+    },
+    {
+      "x": 20,
+      "y": 21,
+      "type_id": 137
+    },
+    {
+      "x": 22,
+      "y": 21,
+      "type_id": 250
+    },
+    {
+      "x": 20,
+      "y": 19,
+      "type_id": 259
+    },
+    {
+      "x": 20,
+      "y": 25,
+      "type_id": 17
+    },
+    {
+      "x": 21,
+      "y": 24,
+      "type_id": 17
+    },
+    {
+      "x": 21,
+      "y": 23,
+      "type_id": 17
+    },
+    {
+      "x": 22,
+      "y": 20,
+      "type_id": 101
+    },
+    {
+      "x": 22,
+      "y": 19,
+      "type_id": 101
+    },
+    {
+      "x": 23,
+      "y": 19,
+      "type_id": 259
+    },
+    {
+      "x": 20,
+      "y": 17,
+      "type_id": 247
+    },
+    {
+      "x": 20,
+      "y": 14,
+      "type_id": 251
+    },
+    {
+      "x": 20,
+      "y": 16,
+      "type_id": 47
+    },
+    {
+      "x": 20,
+      "y": 15,
+      "type_id": 47
+    },
+    {
+      "x": 21,
+      "y": 15,
+      "type_id": 47
+    },
+    {
+      "x": 21,
+      "y": 16,
+      "type_id": 47
+    },
+    {
+      "x": 22,
+      "y": 17,
+      "type_id": 47
+    },
+    {
+      "x": 22,
+      "y": 18,
+      "type_id": 47
+    },
+    {
+      "x": 23,
+      "y": 17,
+      "type_id": 47
+    },
+    {
+      "x": 23,
+      "y": 18,
+      "type_id": 47
+    },
+    {
+      "x": 24,
+      "y": 18,
+      "type_id": 47
+    },
+    {
+      "x": 24,
+      "y": 17,
+      "type_id": 47
+    },
+    {
+      "x": 23,
+      "y": 12,
+      "type_id": 247
+    },
+    {
+      "x": 16,
+      "y": 7,
+      "type_id": 244,
+      "level": 3,
+      "contract_finished_at": 1441324852
+    },
+    {
+      "x": 16,
+      "y": 5,
+      "type_id": 271
+    },
+    {
+      "x": 23,
+      "y": 10,
+      "type_id": 271
+    },
+    {
+      "x": 18,
+      "y": 5,
+      "type_id": 271
+    },
+    {
+      "x": 13,
+      "y": 12,
+      "type_id": 21
+    },
+    {
+      "x": 19,
+      "y": 8,
+      "type_id": 38
+    },
+    {
+      "x": 21,
+      "y": 9,
+      "type_id": 24
+    },
+    {
+      "x": 20,
+      "y": 5,
+      "type_id": 29
+    },
+    {
+      "x": 23,
+      "y": 8,
+      "type_id": 65
+    },
+    {
+      "x": 21,
+      "y": 7,
+      "type_id": 24
+    },
+    {
+      "x": 19,
+      "y": 7,
+      "type_id": 173
+    },
+    {
+      "x": 20,
+      "y": 7,
+      "type_id": 174
+    },
+    {
+      "x": 20,
+      "y": 4,
+      "type_id": 47
+    },
+    {
+      "x": 22,
+      "y": 5,
+      "type_id": 47
+    },
+    {
+      "x": 22,
+      "y": 6,
+      "type_id": 47
+    },
+    {
+      "x": 22,
+      "y": 15,
+      "type_id": 273
+    },
+    {
+      "x": 24,
+      "y": 15,
+      "type_id": 185
+    },
+    {
+      "x": 20,
+      "y": 0,
+      "type_id": 245,
+      "level": 3,
+      "contract_finished_at": 1441324856
+    },
+    {
+      "x": 23,
+      "y": 0,
+      "type_id": 135
+    },
+    {
+      "x": 21,
+      "y": 3,
+      "type_id": 29
+    },
+    {
+      "x": 23,
+      "y": 6,
+      "type_id": 279
+    },
+    {
+      "x": 23,
+      "y": 2,
+      "type_id": 289
+    },
+    {
+      "x": 23,
+      "y": 4,
+      "type_id": 197
+    },
+    {
+      "x": 5,
+      "y": 15,
+      "type_id": 197
+    },
+    {
+      "x": 7,
+      "y": 15,
+      "type_id": 197
+    },
+    {
+      "x": 25,
+      "y": 15,
+      "type_id": 290
+    },
+    {
+      "x": 15,
+      "y": 2,
+      "type_id": 126
+    },
+    {
+      "x": 15,
+      "y": 0,
+      "type_id": 121
+    },
+    {
+      "x": 17,
+      "y": 2,
+      "type_id": 226
+    },
+    {
+      "x": 24,
+      "y": 16,
+      "type_id": 114
+    },
+    {
+      "x": 17,
+      "y": 0,
+      "type_id": 107
+    },
+    {
+      "x": 5,
+      "y": 10,
+      "type_id": 246,
+      "level": 3,
+      "contract_finished_at": 1441232716
+    },
+    {
+      "x": 5,
+      "y": 13,
+      "type_id": 220
+    },
+    {
+      "x": 8,
+      "y": 10,
+      "type_id": 128
+    },
+    {
+      "x": 7,
+      "y": 13,
+      "type_id": 95
+    },
+    {
+      "x": 10,
+      "y": 10,
+      "type_id": 285
+    },
+    {
+      "x": 8,
+      "y": 12,
+      "type_id": 47
+    },
+    {
+      "x": 9,
+      "y": 17,
+      "type_id": 47
+    },
+    {
+      "x": 9,
+      "y": 12,
+      "type_id": 230
+    },
+    {
+      "x": 11,
+      "y": 12,
+      "type_id": 137
+    },
+    {
+      "x": 12,
+      "y": 10,
+      "type_id": 38
+    },
+    {
+      "x": 9,
+      "y": 14,
+      "type_id": 116
+    },
+    {
+      "x": 3,
+      "y": 21,
+      "type_id": 95
+    },
+    {
+      "x": 3,
+      "y": 23,
+      "type_id": 136
+    },
+    {
+      "x": 1,
+      "y": 21,
+      "type_id": 136
+    },
+    {
+      "x": 13,
+      "y": 7,
+      "type_id": 262
+    },
+    {
+      "x": 11,
+      "y": 7,
+      "type_id": 249
+    },
+    {
+      "x": 10,
+      "y": 8,
+      "type_id": 117
+    }
+  ],
+  "events": [
+    {
+      "id": "aviation_august_2015",
+      "milestone": 2,
+      "items": {
+        "item3": 20,
+        "item4": 13,
+        "item1": 198,
+        "item2": 52
+      },
+      "intro_shown_at": 1439416224,
+      "finished_at": 1439844916,
+      "trades": [
+
+      ]
+    },
+    {
+      "id": "camping_august_2015",
+      "milestone": 1,
+      "items": {
+        "item2": 15,
+        "item3": 8,
+        "item1": 39,
+        "item4": 6
+      },
+      "intro_shown_at": 1440613819,
+      "finished_at": 1441055479,
+      "trades": [
+
+      ]
+    }
+  ],
+  "progression_reset_at": 1439499551,
+  "daily_puzzle": {
+    "scene_id": "01-05-05",
+    "day": 5,
+    "last_completion": 1441225351,
+    "utc_offset": 3600
+  },
+  "tournament": {
+    "hscore": 874614,
+    "id": 167,
+    "medals": [
+      20,
+      5,
+      7
+    ],
+    "rounds": 7
+  },
+  "viral_gate": [
+
+  ],
+  "tournament_gate": [
+
+  ],
+  "country": null
+}

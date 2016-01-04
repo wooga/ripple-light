@@ -43,6 +43,8 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<rspec>, ["~> 2.8.0"])
       s.add_development_dependency(%q<rake>, ["~> 10.0.3"])
       s.add_development_dependency(%q<jeweler>, ["~> 1.8.4"])
+      s.add_development_dependency(%q<benchmark-ips>, ["~> 2.3.0"])
+      s.add_development_dependency(%q<ruby-prof>, ["~> 0.15.8"])
     else
       s.add_dependency(%q<activesupport>, ["~> 3.2.12"])
       s.add_dependency(%q<activemodel>, ["~> 3.2.12"])
@@ -52,6 +54,8 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<rake>, ["~> 10.0.3"])
       s.add_dependency(%q<jeweler>, ["~> 1.8.4"])
       s.add_dependency(%q<json>, ["~> 1.8.0"])
+      s.add_dependency(%q<benchmark-ips>, ["~> 2.3.0"])
+      s.add_dependency(%q<ruby-prof>, ["~> 0.15.8"])
     end
   else
     s.add_dependency(%q<activesupport>, ["~> 3.2.12"])
@@ -62,6 +66,8 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<rake>, ["~> 10.0.3"])
     s.add_dependency(%q<jeweler>, ["~> 1.8.4"])
     s.add_dependency(%q<json>, ["~> 1.8.0"])
+    s.add_dependency(%q<benchmark-ips>, ["~> 2.3.0"])
+    s.add_dependency(%q<ruby-prof>, ["~> 0.15.8"])
   end
 end
 

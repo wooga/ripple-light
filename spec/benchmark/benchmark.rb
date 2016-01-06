@@ -1,40 +1,26 @@
 require 'benchmark/ips'
-require 'ripple-light'
-require 'model/user'
+require 'riak'
+require 'ripple/serializers'
 
-default_data = JSON.parse(File.read('./spec/data/90kstate.json'), symbolyze_names: true)
+user_state = JSON.parse(File.read('./spec/data/20kstate.json'), symbolyze_names: true)
 
 Benchmark.ips do |x|
   x.config(time: 5, warmup: 2)
 
   x.report("uncompressed") do |times|
-    user = User.new(id: "u1", text: "hello world")
-    user.save
-
-    user.update_from_json(default_data)
-
     i = 0
     while i < times
-      $compress = false
-      user.text = "Hello Uncompressed #{i}"
-      user.save
-      user.reload
+      binary = Riak::Serializers['application/json'].dump(user_state)
+      Riak::Serializers['application/json'].load(binary)
       i += 1
     end
   end
 
   x.report("compressed") do |times|
-    user = User.new(id: "u2", text: "hello world")
-    user.save
-
-    user.update_from_json(default_data)
-
     i = 0
     while i < times
-      $compress = true
-      user.text = "Hello Compressed World #{i}"
-      user.save
-      user.reload
+      binary = Riak::Serializers['application/x-snappy'].dump(user_state)
+      Riak::Serializers['application/x-snappy'].load(binary)
       i += 1
     end
   end

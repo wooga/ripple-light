@@ -2,6 +2,7 @@ require 'riak'
 require 'ripple/document'
 require 'ripple/embedded_document'
 require 'ripple/core_ext'
+require 'ripple/serializers'
 
 module Ripple
   class << self

@@ -1,0 +1,6137 @@
+{
+  "badges": 2244,
+  "coins": 57139,
+  "cash": 29,
+  "unlimited_energy_tokens": 1,
+  "prestige": 48099,
+  "max_prestige": 48099,
+  "flags": 25,
+  "achievements": [
+
+  ],
+  "mission": 14,
+  "ad_transactions": [
+
+  ],
+  "session_count": 5387,
+  "badges_at_progression_reset": 0,
+  "scenes_played": 0,
+  "chapters_unlocked": 0,
+  "scores_gained": 0,
+  "energy": {
+    "amount": 20,
+    "next_refill_at": 0,
+    "unlimited_to": 1426044108
+  },
+  "inventory": [
+    {
+      "cat": "material",
+      "id": 6,
+      "amount": 9
+    },
+    {
+      "cat": "material",
+      "id": 4,
+      "amount": 25
+    },
+    {
+      "cat": "material",
+      "id": 20,
+      "amount": 14
+    },
+    {
+      "cat": "material",
+      "id": 7,
+      "amount": 10
+    },
+    {
+      "cat": "material",
+      "id": 1,
+      "amount": 15
+    },
+    {
+      "cat": "material",
+      "id": 2,
+      "amount": 10
+    },
+    {
+      "cat": "material",
+      "id": 25,
+      "amount": 12
+    }
+  ],
+  "soft_cap_inventory": {
+
+  },
+  "family_task_set": {
+    "last_skipped": 0,
+    "slots": {
+      "easy": {
+        "generator_state": null,
+        "task": null
+      },
+      "medium": {
+        "generator_state": null,
+        "task": null
+      },
+      "hard": {
+        "generator_state": null,
+        "task": null
+      }
+    }
+  },
+  "iso_item_inventory": {
+    "items": [
+      {
+        "type_id": 135
+      },
+      {
+        "type_id": 163
+      },
+      {
+        "type_id": 163
+      },
+      {
+        "type_id": 21
+      },
+      {
+        "type_id": 21
+      },
+      {
+        "type_id": 272
+      },
+      {
+        "type_id": 167
+      },
+      {
+        "type_id": 21
+      },
+      {
+        "type_id": 65
+      },
+      {
+        "type_id": 30
+      },
+      {
+        "type_id": 163
+      },
+      {
+        "type_id": 21
+      },
+      {
+        "type_id": 163
+      },
+      {
+        "type_id": 272
+      },
+      {
+        "type_id": 78
+      },
+      {
+        "type_id": 21
+      },
+      {
+        "type_id": 21
+      },
+      {
+        "type_id": 285
+      },
+      {
+        "type_id": 21
+      },
+      {
+        "type_id": 197
+      },
+      {
+        "type_id": 197
+      },
+      {
+        "type_id": 197
+      },
+      {
+        "type_id": 198
+      },
+      {
+        "type_id": 197
+      },
+      {
+        "type_id": 197
+      },
+      {
+        "type_id": 33
+      },
+      {
+        "type_id": 32
+      },
+      {
+        "type_id": 79
+      },
+      {
+        "type_id": 21
+      },
+      {
+        "type_id": 127
+      },
+      {
+        "type_id": 279
+      }
+    ],
+    "purchased": 31,
+    "unlocked": true
+  },
+  "rewardable_iso_inventory": {
+    "items": {
+
+    }
+  },
+  "collection_inventory": {
+    "items": {
+      "item_5": 5,
+      "item_13": 2,
+      "item_21": 2,
+      "item_27": 1,
+      "item_3": 44,
+      "item_7": 1,
+      "item_2": 2,
+      "item_16": 7,
+      "item_12": 43,
+      "item_26": 1,
+      "item_23": 1,
+      "item_24": 5,
+      "item_10": 1,
+      "item_29": 1,
+      "item_19": 4,
+      "item_28": 5,
+      "item_1": 1,
+      "item_11": 45,
+      "item_22": 9,
+      "item_8": 21,
+      "item_14": 1,
+      "item_35": 12,
+      "item_33": 1,
+      "item_36": 44,
+      "item_49": 2,
+      "item_51": 4,
+      "item_53": 30,
+      "item_54": 1,
+      "item_37": 1,
+      "item_32": 1,
+      "item_34": 1,
+      "item_59": 1,
+      "item_52": 3,
+      "item_50": 4,
+      "item_60": 56
+    },
+    "pending_delivery": {
+      "item_id": "item_19",
+      "delivery_at": 1437099878
+    },
+    "rewards_claimed": [
+      {
+        "iso_item": 116
+      },
+      {
+        "iso_item": 117
+      },
+      {
+        "iso_item": 118
+      },
+      {
+        "iso_item": 296
+      }
+    ],
+    "completions": {
+      "collection_5": 5,
+      "collection_4": 2,
+      "collection_3": 4,
+      "collection_2": 5,
+      "collection_1": 9,
+      "collection_8": 3,
+      "collection_7": 2,
+      "collection_6": 2,
+      "collection_10": 1
+    },
+    "requested_collection_items": {
+
+    }
+  },
+  "regions": [
+    [
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "scenes": [
+    {
+      "id": "01-01-01",
+      "hscore": 564725,
+      "mastery": 6949985,
+      "clues": 3
+    },
+    {
+      "id": "01-01-02",
+      "hscore": 651368,
+      "mastery": 19400725,
+      "clues": 3
+    },
+    {
+      "id": "01-01-03",
+      "hscore": 491097,
+      "mastery": 4669100,
+      "clues": 3
+    },
+    {
+      "id": "01-01-04",
+      "hscore": 586453,
+      "mastery": 4897256,
+      "clues": 3
+    },
+    {
+      "id": "01-01-05",
+      "hscore": 387225,
+      "mastery": 5377463,
+      "clues": 3
+    },
+    {
+      "id": "01-01-06",
+      "hscore": 1,
+      "mastery": 2,
+      "clues": 2
+    },
+    {
+      "id": "01-02-01",
+      "hscore": 597870,
+      "mastery": 7587116,
+      "clues": 3
+    },
+    {
+      "id": "01-02-02",
+      "hscore": 631052,
+      "mastery": 8902509,
+      "clues": 3
+    },
+    {
+      "id": "01-02-03",
+      "hscore": 623084,
+      "mastery": 10593938,
+      "clues": 3
+    },
+    {
+      "id": "01-02-04",
+      "hscore": 637961,
+      "mastery": 11061738,
+      "clues": 3
+    },
+    {
+      "id": "01-02-05",
+      "hscore": 598143,
+      "mastery": 8580756,
+      "clues": 3
+    },
+    {
+      "id": "01-02-06",
+      "hscore": 1,
+      "mastery": 2,
+      "clues": 2
+    },
+    {
+      "id": "01-03-01",
+      "hscore": 631111,
+      "mastery": 12923262,
+      "clues": 3
+    },
+    {
+      "id": "01-03-02",
+      "hscore": 634159,
+      "mastery": 14967162,
+      "clues": 3
+    },
+    {
+      "id": "01-03-03",
+      "hscore": 627111,
+      "mastery": 16591336,
+      "clues": 3
+    },
+    {
+      "id": "01-03-04",
+      "hscore": 628576,
+      "mastery": 17168477,
+      "clues": 3
+    },
+    {
+      "id": "01-03-05",
+      "hscore": 630512,
+      "mastery": 16803121,
+      "clues": 3
+    },
+    {
+      "id": "01-03-06",
+      "hscore": 1,
+      "mastery": 2,
+      "clues": 2
+    },
+    {
+      "id": "01-04-01",
+      "hscore": 638571,
+      "mastery": 26624947,
+      "clues": 3
+    },
+    {
+      "id": "01-04-02",
+      "hscore": 638020,
+      "mastery": 39014456,
+      "clues": 3
+    },
+    {
+      "id": "01-04-03",
+      "hscore": 640357,
+      "mastery": 61236634,
+      "clues": 3
+    },
+    {
+      "id": "01-04-04",
+      "hscore": 640480,
+      "mastery": 50733249,
+      "clues": 3
+    },
+    {
+      "id": "01-04-05",
+      "hscore": 627702,
+      "mastery": 22593027,
+      "clues": 3
+    },
+    {
+      "id": "01-04-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-05-01",
+      "hscore": 630897,
+      "mastery": 16875315,
+      "clues": 3
+    },
+    {
+      "id": "01-05-02",
+      "hscore": 629929,
+      "mastery": 21572766,
+      "clues": 3
+    },
+    {
+      "id": "01-05-03",
+      "hscore": 638266,
+      "mastery": 21713269,
+      "clues": 3
+    },
+    {
+      "id": "01-05-04",
+      "hscore": 634325,
+      "mastery": 22213463,
+      "clues": 3
+    },
+    {
+      "id": "01-05-05",
+      "hscore": 635945,
+      "mastery": 23987242,
+      "clues": 3
+    },
+    {
+      "id": "01-05-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-06-01",
+      "hscore": 631464,
+      "mastery": 17221801,
+      "clues": 3
+    },
+    {
+      "id": "01-06-02",
+      "hscore": 631159,
+      "mastery": 21996561,
+      "clues": 3
+    },
+    {
+      "id": "01-06-03",
+      "hscore": 628512,
+      "mastery": 21809589,
+      "clues": 3
+    },
+    {
+      "id": "01-06-04",
+      "hscore": 638956,
+      "mastery": 21815605,
+      "clues": 3
+    },
+    {
+      "id": "01-06-05",
+      "hscore": 644170,
+      "mastery": 21783803,
+      "clues": 3
+    },
+    {
+      "id": "01-06-06",
+      "hscore": 1,
+      "mastery": 2,
+      "clues": 2
+    },
+    {
+      "id": "01-07-01",
+      "hscore": 633571,
+      "mastery": 16216345,
+      "clues": 3
+    },
+    {
+      "id": "01-07-02",
+      "hscore": 635095,
+      "mastery": 24153216,
+      "clues": 3
+    },
+    {
+      "id": "01-07-03",
+      "hscore": 632833,
+      "mastery": 22236566,
+      "clues": 3
+    },
+    {
+      "id": "01-07-04",
+      "hscore": 635250,
+      "mastery": 19437428,
+      "clues": 3
+    },
+    {
+      "id": "01-07-05",
+      "hscore": 631838,
+      "mastery": 20305689,
+      "clues": 3
+    },
+    {
+      "id": "01-07-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-08-01",
+      "hscore": 636159,
+      "mastery": 22429983,
+      "clues": 3
+    },
+    {
+      "id": "01-08-02",
+      "hscore": 638432,
+      "mastery": 26015225,
+      "clues": 3
+    },
+    {
+      "id": "01-08-03",
+      "hscore": 632806,
+      "mastery": 24042323,
+      "clues": 3
+    },
+    {
+      "id": "01-08-04",
+      "hscore": 648047,
+      "mastery": 37654543,
+      "clues": 3
+    },
+    {
+      "id": "01-08-05",
+      "hscore": 644817,
+      "mastery": 37029118,
+      "clues": 3
+    },
+    {
+      "id": "01-08-06",
+      "hscore": 1,
+      "mastery": 2,
+      "clues": 2
+    },
+    {
+      "id": "01-09-01",
+      "hscore": 642908,
+      "mastery": 26602872,
+      "clues": 3
+    },
+    {
+      "id": "01-09-02",
+      "hscore": 635266,
+      "mastery": 19967268,
+      "clues": 3
+    },
+    {
+      "id": "01-09-03",
+      "hscore": 636202,
+      "mastery": 19943198,
+      "clues": 3
+    },
+    {
+      "id": "01-09-04",
+      "hscore": 640924,
+      "mastery": 19833890,
+      "clues": 3
+    },
+    {
+      "id": "01-09-05",
+      "hscore": 644015,
+      "mastery": 18679367,
+      "clues": 3
+    },
+    {
+      "id": "01-09-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-10-01",
+      "hscore": 634555,
+      "mastery": 18837482,
+      "clues": 3
+    },
+    {
+      "id": "01-10-02",
+      "hscore": 632373,
+      "mastery": 24266464,
+      "clues": 3
+    },
+    {
+      "id": "01-10-03",
+      "hscore": 642432,
+      "mastery": 23754877,
+      "clues": 3
+    },
+    {
+      "id": "01-10-04",
+      "hscore": 640416,
+      "mastery": 24304360,
+      "clues": 3
+    },
+    {
+      "id": "01-10-05",
+      "hscore": 638047,
+      "mastery": 24059957,
+      "clues": 3
+    },
+    {
+      "id": "01-10-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-11-01",
+      "hscore": 626806,
+      "mastery": 13960278,
+      "clues": 3
+    },
+    {
+      "id": "01-11-02",
+      "hscore": 632579,
+      "mastery": 17560371,
+      "clues": 3
+    },
+    {
+      "id": "01-11-03",
+      "hscore": 630996,
+      "mastery": 17684919,
+      "clues": 3
+    },
+    {
+      "id": "01-11-04",
+      "hscore": 630849,
+      "mastery": 17558430,
+      "clues": 3
+    },
+    {
+      "id": "01-11-05",
+      "hscore": 633571,
+      "mastery": 17564896,
+      "clues": 3
+    },
+    {
+      "id": "01-11-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-12-01",
+      "hscore": 629266,
+      "mastery": 20097104,
+      "clues": 3
+    },
+    {
+      "id": "01-12-02",
+      "hscore": 646416,
+      "mastery": 26096903,
+      "clues": 3
+    },
+    {
+      "id": "01-12-03",
+      "hscore": 648293,
+      "mastery": 30975895,
+      "clues": 3
+    },
+    {
+      "id": "01-12-04",
+      "hscore": 641793,
+      "mastery": 26984910,
+      "clues": 3
+    },
+    {
+      "id": "01-12-05",
+      "hscore": 633512,
+      "mastery": 26299727,
+      "clues": 3
+    },
+    {
+      "id": "01-12-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-13-01",
+      "hscore": 636432,
+      "mastery": 17273548,
+      "clues": 3
+    },
+    {
+      "id": "01-13-02",
+      "hscore": 638373,
+      "mastery": 22316713,
+      "clues": 3
+    },
+    {
+      "id": "01-13-03",
+      "hscore": 633801,
+      "mastery": 21588593,
+      "clues": 3
+    },
+    {
+      "id": "01-13-04",
+      "hscore": 641095,
+      "mastery": 21749884,
+      "clues": 3
+    },
+    {
+      "id": "01-13-05",
+      "hscore": 637079,
+      "mastery": 21976235,
+      "clues": 3
+    },
+    {
+      "id": "01-13-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-14-01",
+      "hscore": 634349,
+      "mastery": 16919223,
+      "clues": 3
+    },
+    {
+      "id": "01-14-02",
+      "hscore": 640817,
+      "mastery": 22021535,
+      "clues": 3
+    },
+    {
+      "id": "01-14-03",
+      "hscore": 635539,
+      "mastery": 21887334,
+      "clues": 3
+    },
+    {
+      "id": "01-14-04",
+      "hscore": 640678,
+      "mastery": 21789811,
+      "clues": 3
+    },
+    {
+      "id": "01-14-05",
+      "hscore": 625817,
+      "mastery": 21705773,
+      "clues": 3
+    },
+    {
+      "id": "01-14-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-15-01",
+      "hscore": 634897,
+      "mastery": 16821605,
+      "clues": 3
+    },
+    {
+      "id": "01-15-02",
+      "hscore": 638250,
+      "mastery": 21679869,
+      "clues": 3
+    },
+    {
+      "id": "01-15-03",
+      "hscore": 640031,
+      "mastery": 22056020,
+      "clues": 3
+    },
+    {
+      "id": "01-15-04",
+      "hscore": 636437,
+      "mastery": 21950154,
+      "clues": 3
+    },
+    {
+      "id": "01-15-05",
+      "hscore": 642154,
+      "mastery": 21885418,
+      "clues": 3
+    },
+    {
+      "id": "01-15-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-16-01",
+      "hscore": 632063,
+      "mastery": 16920477,
+      "clues": 3
+    },
+    {
+      "id": "01-16-02",
+      "hscore": 635079,
+      "mastery": 21696046,
+      "clues": 3
+    },
+    {
+      "id": "01-16-03",
+      "hscore": 642785,
+      "mastery": 21867700,
+      "clues": 3
+    },
+    {
+      "id": "01-16-04",
+      "hscore": 639202,
+      "mastery": 22069130,
+      "clues": 3
+    },
+    {
+      "id": "01-16-05",
+      "hscore": 635940,
+      "mastery": 22006071,
+      "clues": 3
+    },
+    {
+      "id": "01-16-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-17-01",
+      "hscore": 637587,
+      "mastery": 20404498,
+      "clues": 3
+    },
+    {
+      "id": "01-17-02",
+      "hscore": 642047,
+      "mastery": 25958890,
+      "clues": 3
+    },
+    {
+      "id": "01-17-03",
+      "hscore": 638726,
+      "mastery": 26209573,
+      "clues": 3
+    },
+    {
+      "id": "01-17-04",
+      "hscore": 642186,
+      "mastery": 25966279,
+      "clues": 3
+    },
+    {
+      "id": "01-17-05",
+      "hscore": 640269,
+      "mastery": 26345624,
+      "clues": 3
+    },
+    {
+      "id": "01-17-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-18-01",
+      "hscore": 639571,
+      "mastery": 15128551,
+      "clues": 3
+    },
+    {
+      "id": "01-18-02",
+      "hscore": 641694,
+      "mastery": 19411144,
+      "clues": 3
+    },
+    {
+      "id": "01-18-03",
+      "hscore": 642015,
+      "mastery": 19741402,
+      "clues": 3
+    },
+    {
+      "id": "01-18-04",
+      "hscore": 634587,
+      "mastery": 19563098,
+      "clues": 3
+    },
+    {
+      "id": "01-18-05",
+      "hscore": 645245,
+      "mastery": 19851403,
+      "clues": 3
+    },
+    {
+      "id": "01-18-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-19-01",
+      "hscore": 636710,
+      "mastery": 18719304,
+      "clues": 3
+    },
+    {
+      "id": "01-19-02",
+      "hscore": 640662,
+      "mastery": 28233138,
+      "clues": 3
+    },
+    {
+      "id": "01-19-03",
+      "hscore": 637063,
+      "mastery": 24281282,
+      "clues": 3
+    },
+    {
+      "id": "01-19-04",
+      "hscore": 640186,
+      "mastery": 23895504,
+      "clues": 3
+    },
+    {
+      "id": "01-19-05",
+      "hscore": 642432,
+      "mastery": 26894750,
+      "clues": 3
+    },
+    {
+      "id": "01-19-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-20-01",
+      "hscore": 637587,
+      "mastery": 15600336,
+      "clues": 3
+    },
+    {
+      "id": "01-20-02",
+      "hscore": 640245,
+      "mastery": 22500423,
+      "clues": 3
+    },
+    {
+      "id": "01-20-03",
+      "hscore": 635325,
+      "mastery": 26908021,
+      "clues": 3
+    },
+    {
+      "id": "01-20-04",
+      "hscore": 647555,
+      "mastery": 27286313,
+      "clues": 3
+    },
+    {
+      "id": "01-20-05",
+      "hscore": 636892,
+      "mastery": 21070551,
+      "clues": 3
+    },
+    {
+      "id": "01-20-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-21-01",
+      "hscore": 648293,
+      "mastery": 29501355,
+      "clues": 3
+    },
+    {
+      "id": "01-21-02",
+      "hscore": 645646,
+      "mastery": 26058904,
+      "clues": 3
+    },
+    {
+      "id": "01-21-03",
+      "hscore": 637325,
+      "mastery": 26029902,
+      "clues": 3
+    },
+    {
+      "id": "01-21-04",
+      "hscore": 638333,
+      "mastery": 25917850,
+      "clues": 3
+    },
+    {
+      "id": "01-21-05",
+      "hscore": 643368,
+      "mastery": 26251439,
+      "clues": 3
+    },
+    {
+      "id": "01-21-06",
+      "hscore": 1,
+      "mastery": 2,
+      "clues": 2
+    },
+    {
+      "id": "01-22-01",
+      "hscore": 645154,
+      "mastery": 21949463,
+      "clues": 3
+    },
+    {
+      "id": "01-22-02",
+      "hscore": 635785,
+      "mastery": 23778432,
+      "clues": 3
+    },
+    {
+      "id": "01-22-03",
+      "hscore": 637111,
+      "mastery": 24760539,
+      "clues": 3
+    },
+    {
+      "id": "01-22-04",
+      "hscore": 640737,
+      "mastery": 24348100,
+      "clues": 3
+    },
+    {
+      "id": "01-22-05",
+      "hscore": 637849,
+      "mastery": 25874535,
+      "clues": 3
+    },
+    {
+      "id": "01-22-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-23-01",
+      "hscore": 636694,
+      "mastery": 21964492,
+      "clues": 3
+    },
+    {
+      "id": "01-23-02",
+      "hscore": 640095,
+      "mastery": 28570012,
+      "clues": 3
+    },
+    {
+      "id": "01-23-03",
+      "hscore": 644368,
+      "mastery": 28431181,
+      "clues": 3
+    },
+    {
+      "id": "01-23-04",
+      "hscore": 644325,
+      "mastery": 28151329,
+      "clues": 3
+    },
+    {
+      "id": "01-23-05",
+      "hscore": 643662,
+      "mastery": 28107311,
+      "clues": 3
+    },
+    {
+      "id": "01-23-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-24-01",
+      "hscore": 640801,
+      "mastery": 33096184,
+      "clues": 3
+    },
+    {
+      "id": "01-24-02",
+      "hscore": 648416,
+      "mastery": 40000000,
+      "clues": 3
+    },
+    {
+      "id": "01-24-03",
+      "hscore": 636464,
+      "mastery": 29866855,
+      "clues": 3
+    },
+    {
+      "id": "01-24-04",
+      "hscore": 637881,
+      "mastery": 29338387,
+      "clues": 3
+    },
+    {
+      "id": "01-24-05",
+      "hscore": 644277,
+      "mastery": 23973850,
+      "clues": 3
+    },
+    {
+      "id": "01-24-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-25-01",
+      "hscore": 648293,
+      "mastery": 40000000,
+      "clues": 3
+    },
+    {
+      "id": "01-25-02",
+      "hscore": 645122,
+      "mastery": 39749248,
+      "clues": 3
+    },
+    {
+      "id": "01-25-03",
+      "hscore": 644170,
+      "mastery": 39995518,
+      "clues": 3
+    },
+    {
+      "id": "01-25-04",
+      "hscore": 643940,
+      "mastery": 54067619,
+      "clues": 3
+    },
+    {
+      "id": "01-25-05",
+      "hscore": 642384,
+      "mastery": 60650583,
+      "clues": 3
+    },
+    {
+      "id": "01-25-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-26-01",
+      "hscore": 645170,
+      "mastery": 45614996,
+      "clues": 3
+    },
+    {
+      "id": "01-26-02",
+      "hscore": 639825,
+      "mastery": 23048842,
+      "clues": 3
+    },
+    {
+      "id": "01-26-03",
+      "hscore": 646753,
+      "mastery": 23216020,
+      "clues": 3
+    },
+    {
+      "id": "01-26-04",
+      "hscore": 642801,
+      "mastery": 23018782,
+      "clues": 3
+    },
+    {
+      "id": "01-26-05",
+      "hscore": 640261,
+      "mastery": 23140516,
+      "clues": 3
+    },
+    {
+      "id": "01-26-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-27-01",
+      "hscore": 639432,
+      "mastery": 51474276,
+      "clues": 3
+    },
+    {
+      "id": "01-27-02",
+      "hscore": 639785,
+      "mastery": 48242501,
+      "clues": 3
+    },
+    {
+      "id": "01-27-03",
+      "hscore": 633790,
+      "mastery": 28667433,
+      "clues": 3
+    },
+    {
+      "id": "01-27-04",
+      "hscore": 645507,
+      "mastery": 61297037,
+      "clues": 3
+    },
+    {
+      "id": "01-27-05",
+      "hscore": 638309,
+      "mastery": 30183333,
+      "clues": 3
+    },
+    {
+      "id": "01-27-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-28-01",
+      "hscore": 651368,
+      "mastery": 40000000,
+      "clues": 3
+    },
+    {
+      "id": "01-28-02",
+      "hscore": 639416,
+      "mastery": 43985467,
+      "clues": 3
+    },
+    {
+      "id": "01-28-03",
+      "hscore": 646245,
+      "mastery": 24140249,
+      "clues": 3
+    },
+    {
+      "id": "01-28-04",
+      "hscore": 643603,
+      "mastery": 24117956,
+      "clues": 3
+    },
+    {
+      "id": "01-28-05",
+      "hscore": 512218,
+      "mastery": 6406854,
+      "clues": 2
+    },
+    {
+      "id": "01-28-06",
+      "hscore": 1,
+      "mastery": 2,
+      "clues": 1
+    },
+    {
+      "id": "01-29-01",
+      "hscore": 652844,
+      "mastery": 34178556,
+      "clues": 3
+    },
+    {
+      "id": "01-29-02",
+      "hscore": 636555,
+      "mastery": 30217599,
+      "clues": 3
+    },
+    {
+      "id": "01-29-03",
+      "hscore": 638416,
+      "mastery": 30236342,
+      "clues": 3
+    },
+    {
+      "id": "01-29-04",
+      "hscore": 641047,
+      "mastery": 30844126,
+      "clues": 3
+    },
+    {
+      "id": "01-29-05",
+      "hscore": 642662,
+      "mastery": 30308864,
+      "clues": 3
+    },
+    {
+      "id": "01-29-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-30-01",
+      "hscore": 637103,
+      "mastery": 16899494,
+      "clues": 3
+    },
+    {
+      "id": "01-30-02",
+      "hscore": 635416,
+      "mastery": 21876476,
+      "clues": 3
+    },
+    {
+      "id": "01-30-03",
+      "hscore": 644630,
+      "mastery": 21609657,
+      "clues": 3
+    },
+    {
+      "id": "01-30-04",
+      "hscore": 637047,
+      "mastery": 21608713,
+      "clues": 3
+    },
+    {
+      "id": "01-30-05",
+      "hscore": 638924,
+      "mastery": 21834060,
+      "clues": 3
+    },
+    {
+      "id": "01-30-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-31-01",
+      "hscore": 629865,
+      "mastery": 20589058,
+      "clues": 3
+    },
+    {
+      "id": "01-31-02",
+      "hscore": 638785,
+      "mastery": 26369643,
+      "clues": 3
+    },
+    {
+      "id": "01-31-03",
+      "hscore": 639940,
+      "mastery": 27725801,
+      "clues": 3
+    },
+    {
+      "id": "01-31-04",
+      "hscore": 640662,
+      "mastery": 26028401,
+      "clues": 3
+    },
+    {
+      "id": "01-31-05",
+      "hscore": 638908,
+      "mastery": 26431844,
+      "clues": 3
+    },
+    {
+      "id": "01-31-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-32-01",
+      "hscore": 620319,
+      "mastery": 18693799,
+      "clues": 3
+    },
+    {
+      "id": "01-32-02",
+      "hscore": 639079,
+      "mastery": 24281533,
+      "clues": 3
+    },
+    {
+      "id": "01-32-03",
+      "hscore": 638309,
+      "mastery": 23823478,
+      "clues": 3
+    },
+    {
+      "id": "01-32-04",
+      "hscore": 635036,
+      "mastery": 23866497,
+      "clues": 3
+    },
+    {
+      "id": "01-32-05",
+      "hscore": 637138,
+      "mastery": 24073708,
+      "clues": 3
+    },
+    {
+      "id": "01-32-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-33-01",
+      "hscore": 641186,
+      "mastery": 20242455,
+      "clues": 3
+    },
+    {
+      "id": "01-33-02",
+      "hscore": 641555,
+      "mastery": 25903593,
+      "clues": 3
+    },
+    {
+      "id": "01-33-03",
+      "hscore": 638047,
+      "mastery": 26389552,
+      "clues": 3
+    },
+    {
+      "id": "01-33-04",
+      "hscore": 639063,
+      "mastery": 26103710,
+      "clues": 3
+    },
+    {
+      "id": "01-33-05",
+      "hscore": 634619,
+      "mastery": 26462019,
+      "clues": 3
+    },
+    {
+      "id": "01-33-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-34-01",
+      "hscore": 628897,
+      "mastery": 18574821,
+      "clues": 3
+    },
+    {
+      "id": "01-34-02",
+      "hscore": 638309,
+      "mastery": 23834553,
+      "clues": 3
+    },
+    {
+      "id": "01-34-03",
+      "hscore": 636250,
+      "mastery": 24599739,
+      "clues": 3
+    },
+    {
+      "id": "01-34-04",
+      "hscore": 638293,
+      "mastery": 24263813,
+      "clues": 3
+    },
+    {
+      "id": "01-34-05",
+      "hscore": 636734,
+      "mastery": 23971351,
+      "clues": 3
+    },
+    {
+      "id": "01-34-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-35-01",
+      "hscore": 638710,
+      "mastery": 21144291,
+      "clues": 3
+    },
+    {
+      "id": "01-35-02",
+      "hscore": 638619,
+      "mastery": 27167023,
+      "clues": 3
+    },
+    {
+      "id": "01-35-03",
+      "hscore": 638416,
+      "mastery": 27381964,
+      "clues": 3
+    },
+    {
+      "id": "01-35-04",
+      "hscore": 639956,
+      "mastery": 27130462,
+      "clues": 3
+    },
+    {
+      "id": "01-35-05",
+      "hscore": 638579,
+      "mastery": 27111288,
+      "clues": 3
+    },
+    {
+      "id": "01-35-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-36-01",
+      "hscore": 640833,
+      "mastery": 17733687,
+      "clues": 3
+    },
+    {
+      "id": "01-36-02",
+      "hscore": 639809,
+      "mastery": 24511563,
+      "clues": 3
+    },
+    {
+      "id": "01-36-03",
+      "hscore": 637234,
+      "mastery": 22697279,
+      "clues": 3
+    },
+    {
+      "id": "01-36-04",
+      "hscore": 640849,
+      "mastery": 22675921,
+      "clues": 3
+    },
+    {
+      "id": "01-36-05",
+      "hscore": 638373,
+      "mastery": 22717148,
+      "clues": 3
+    },
+    {
+      "id": "01-36-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-37-01",
+      "hscore": 636726,
+      "mastery": 20206166,
+      "clues": 3
+    },
+    {
+      "id": "01-37-02",
+      "hscore": 643416,
+      "mastery": 26412275,
+      "clues": 3
+    },
+    {
+      "id": "01-37-03",
+      "hscore": 644662,
+      "mastery": 29918274,
+      "clues": 3
+    },
+    {
+      "id": "01-37-04",
+      "hscore": 641464,
+      "mastery": 26474846,
+      "clues": 3
+    },
+    {
+      "id": "01-37-05",
+      "hscore": 643031,
+      "mastery": 26445350,
+      "clues": 3
+    },
+    {
+      "id": "01-37-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-38-01",
+      "hscore": 637277,
+      "mastery": 18735721,
+      "clues": 3
+    },
+    {
+      "id": "01-38-02",
+      "hscore": 639940,
+      "mastery": 28613769,
+      "clues": 3
+    },
+    {
+      "id": "01-38-03",
+      "hscore": 638587,
+      "mastery": 23967158,
+      "clues": 3
+    },
+    {
+      "id": "01-38-04",
+      "hscore": 633678,
+      "mastery": 36225849,
+      "clues": 3
+    },
+    {
+      "id": "01-38-05",
+      "hscore": 640563,
+      "mastery": 32640056,
+      "clues": 3
+    },
+    {
+      "id": "01-38-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-39-01",
+      "hscore": 637464,
+      "mastery": 21324661,
+      "clues": 3
+    },
+    {
+      "id": "01-39-02",
+      "hscore": 638833,
+      "mastery": 27512566,
+      "clues": 3
+    },
+    {
+      "id": "01-39-03",
+      "hscore": 636250,
+      "mastery": 27219754,
+      "clues": 3
+    },
+    {
+      "id": "01-39-04",
+      "hscore": 641785,
+      "mastery": 27037256,
+      "clues": 3
+    },
+    {
+      "id": "01-39-05",
+      "hscore": 641293,
+      "mastery": 27208217,
+      "clues": 3
+    },
+    {
+      "id": "01-39-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-40-01",
+      "hscore": 639325,
+      "mastery": 16926843,
+      "clues": 3
+    },
+    {
+      "id": "01-40-02",
+      "hscore": 631159,
+      "mastery": 21670471,
+      "clues": 3
+    },
+    {
+      "id": "01-40-03",
+      "hscore": 633710,
+      "mastery": 21802496,
+      "clues": 3
+    },
+    {
+      "id": "01-40-04",
+      "hscore": 633758,
+      "mastery": 22521970,
+      "clues": 3
+    },
+    {
+      "id": "01-40-05",
+      "hscore": 648662,
+      "mastery": 31042468,
+      "clues": 3
+    },
+    {
+      "id": "01-40-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-41-01",
+      "hscore": 636678,
+      "mastery": 20538602,
+      "clues": 3
+    },
+    {
+      "id": "01-41-02",
+      "hscore": 632170,
+      "mastery": 26372594,
+      "clues": 3
+    },
+    {
+      "id": "01-41-03",
+      "hscore": 641448,
+      "mastery": 25931437,
+      "clues": 3
+    },
+    {
+      "id": "01-41-04",
+      "hscore": 642063,
+      "mastery": 26332037,
+      "clues": 3
+    },
+    {
+      "id": "01-41-05",
+      "hscore": 632972,
+      "mastery": 26083527,
+      "clues": 3
+    },
+    {
+      "id": "01-41-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-42-01",
+      "hscore": 640646,
+      "mastery": 18480231,
+      "clues": 3
+    },
+    {
+      "id": "01-42-02",
+      "hscore": 635309,
+      "mastery": 24158526,
+      "clues": 3
+    },
+    {
+      "id": "01-42-03",
+      "hscore": 639785,
+      "mastery": 23963857,
+      "clues": 3
+    },
+    {
+      "id": "01-42-04",
+      "hscore": 642555,
+      "mastery": 24234909,
+      "clues": 3
+    },
+    {
+      "id": "01-42-05",
+      "hscore": 640202,
+      "mastery": 24236891,
+      "clues": 3
+    },
+    {
+      "id": "01-42-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-43-01",
+      "hscore": 645095,
+      "mastery": 28955933,
+      "clues": 3
+    },
+    {
+      "id": "01-43-02",
+      "hscore": 642924,
+      "mastery": 26407892,
+      "clues": 3
+    },
+    {
+      "id": "01-43-03",
+      "hscore": 643063,
+      "mastery": 30104032,
+      "clues": 3
+    },
+    {
+      "id": "01-43-04",
+      "hscore": 640785,
+      "mastery": 25896821,
+      "clues": 3
+    },
+    {
+      "id": "01-43-05",
+      "hscore": 634865,
+      "mastery": 26198479,
+      "clues": 3
+    },
+    {
+      "id": "01-43-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-44-01",
+      "hscore": 639523,
+      "mastery": 34277545,
+      "clues": 3
+    },
+    {
+      "id": "01-44-02",
+      "hscore": 640055,
+      "mastery": 24010294,
+      "clues": 3
+    },
+    {
+      "id": "01-44-03",
+      "hscore": 638849,
+      "mastery": 31854995,
+      "clues": 3
+    },
+    {
+      "id": "01-44-04",
+      "hscore": 643662,
+      "mastery": 30339689,
+      "clues": 3
+    },
+    {
+      "id": "01-44-05",
+      "hscore": 636571,
+      "mastery": 24238617,
+      "clues": 3
+    },
+    {
+      "id": "01-44-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-45-01",
+      "hscore": 642293,
+      "mastery": 32196570,
+      "clues": 3
+    },
+    {
+      "id": "01-45-02",
+      "hscore": 641972,
+      "mastery": 27070884,
+      "clues": 3
+    },
+    {
+      "id": "01-45-03",
+      "hscore": 638250,
+      "mastery": 27187491,
+      "clues": 3
+    },
+    {
+      "id": "01-45-04",
+      "hscore": 639817,
+      "mastery": 38443487,
+      "clues": 3
+    },
+    {
+      "id": "01-45-05",
+      "hscore": 631742,
+      "mastery": 27297513,
+      "clues": 3
+    },
+    {
+      "id": "01-45-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-46-01",
+      "hscore": 642523,
+      "mastery": 39543017,
+      "clues": 3
+    },
+    {
+      "id": "01-46-02",
+      "hscore": 639603,
+      "mastery": 49856071,
+      "clues": 3
+    },
+    {
+      "id": "01-46-03",
+      "hscore": 641384,
+      "mastery": 23207520,
+      "clues": 3
+    },
+    {
+      "id": "01-46-04",
+      "hscore": 632571,
+      "mastery": 23067048,
+      "clues": 3
+    },
+    {
+      "id": "01-46-05",
+      "hscore": 637726,
+      "mastery": 23126844,
+      "clues": 3
+    },
+    {
+      "id": "01-46-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-47-01",
+      "hscore": 639357,
+      "mastery": 21063680,
+      "clues": 3
+    },
+    {
+      "id": "01-47-02",
+      "hscore": 638571,
+      "mastery": 26031175,
+      "clues": 3
+    },
+    {
+      "id": "01-47-03",
+      "hscore": 641908,
+      "mastery": 25987739,
+      "clues": 3
+    },
+    {
+      "id": "01-47-04",
+      "hscore": 633531,
+      "mastery": 25977299,
+      "clues": 3
+    },
+    {
+      "id": "01-47-05",
+      "hscore": 643801,
+      "mastery": 26012419,
+      "clues": 3
+    },
+    {
+      "id": "01-47-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-48-01",
+      "hscore": 632191,
+      "mastery": 18698977,
+      "clues": 3
+    },
+    {
+      "id": "01-48-02",
+      "hscore": 640234,
+      "mastery": 24098273,
+      "clues": 3
+    },
+    {
+      "id": "01-48-03",
+      "hscore": 624742,
+      "mastery": 24308575,
+      "clues": 3
+    },
+    {
+      "id": "01-48-04",
+      "hscore": 645630,
+      "mastery": 30394836,
+      "clues": 3
+    },
+    {
+      "id": "01-48-05",
+      "hscore": 637432,
+      "mastery": 25885318,
+      "clues": 3
+    },
+    {
+      "id": "01-48-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-49-01",
+      "hscore": 642817,
+      "mastery": 20977527,
+      "clues": 3
+    },
+    {
+      "id": "01-49-02",
+      "hscore": 639015,
+      "mastery": 29039127,
+      "clues": 3
+    },
+    {
+      "id": "01-49-03",
+      "hscore": 639785,
+      "mastery": 27090397,
+      "clues": 3
+    },
+    {
+      "id": "01-49-04",
+      "hscore": 639686,
+      "mastery": 43481981,
+      "clues": 3
+    },
+    {
+      "id": "01-49-05",
+      "hscore": 639892,
+      "mastery": 27074512,
+      "clues": 3
+    },
+    {
+      "id": "01-49-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-50-01",
+      "hscore": 643416,
+      "mastery": 18371284,
+      "clues": 3
+    },
+    {
+      "id": "01-50-02",
+      "hscore": 643892,
+      "mastery": 26322304,
+      "clues": 3
+    },
+    {
+      "id": "01-50-03",
+      "hscore": 634464,
+      "mastery": 27691306,
+      "clues": 3
+    },
+    {
+      "id": "01-50-04",
+      "hscore": 636448,
+      "mastery": 23949966,
+      "clues": 3
+    },
+    {
+      "id": "01-50-05",
+      "hscore": 638988,
+      "mastery": 24073814,
+      "clues": 3
+    },
+    {
+      "id": "01-50-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-51-01",
+      "hscore": 638849,
+      "mastery": 21111006,
+      "clues": 3
+    },
+    {
+      "id": "01-51-02",
+      "hscore": 644416,
+      "mastery": 27167644,
+      "clues": 3
+    },
+    {
+      "id": "01-51-03",
+      "hscore": 639630,
+      "mastery": 32999318,
+      "clues": 3
+    },
+    {
+      "id": "01-51-04",
+      "hscore": 636143,
+      "mastery": 36993667,
+      "clues": 3
+    },
+    {
+      "id": "01-51-05",
+      "hscore": 646876,
+      "mastery": 43435715,
+      "clues": 3
+    },
+    {
+      "id": "01-51-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-52-01",
+      "hscore": 636742,
+      "mastery": 18840439,
+      "clues": 3
+    },
+    {
+      "id": "01-52-02",
+      "hscore": 641301,
+      "mastery": 25469308,
+      "clues": 3
+    },
+    {
+      "id": "01-52-03",
+      "hscore": 633587,
+      "mastery": 24176820,
+      "clues": 3
+    },
+    {
+      "id": "01-52-04",
+      "hscore": 640293,
+      "mastery": 24131313,
+      "clues": 3
+    },
+    {
+      "id": "01-52-05",
+      "hscore": 640555,
+      "mastery": 24291582,
+      "clues": 3
+    },
+    {
+      "id": "01-52-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-53-01",
+      "hscore": 638325,
+      "mastery": 28266730,
+      "clues": 3
+    },
+    {
+      "id": "01-53-02",
+      "hscore": 641234,
+      "mastery": 42365544,
+      "clues": 3
+    },
+    {
+      "id": "01-53-03",
+      "hscore": 640015,
+      "mastery": 27392743,
+      "clues": 3
+    },
+    {
+      "id": "01-53-04",
+      "hscore": 638218,
+      "mastery": 27204198,
+      "clues": 3
+    },
+    {
+      "id": "01-53-05",
+      "hscore": 636512,
+      "mastery": 27174142,
+      "clues": 3
+    },
+    {
+      "id": "01-53-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-54-01",
+      "hscore": 639170,
+      "mastery": 19462847,
+      "clues": 3
+    },
+    {
+      "id": "01-54-02",
+      "hscore": 642630,
+      "mastery": 41296975,
+      "clues": 3
+    },
+    {
+      "id": "01-54-03",
+      "hscore": 643678,
+      "mastery": 28306822,
+      "clues": 3
+    },
+    {
+      "id": "01-54-04",
+      "hscore": 638234,
+      "mastery": 24302843,
+      "clues": 3
+    },
+    {
+      "id": "01-54-05",
+      "hscore": 642539,
+      "mastery": 47180939,
+      "clues": 3
+    },
+    {
+      "id": "01-54-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-55-01",
+      "hscore": 642309,
+      "mastery": 22407896,
+      "clues": 3
+    },
+    {
+      "id": "01-55-02",
+      "hscore": 642940,
+      "mastery": 27002118,
+      "clues": 3
+    },
+    {
+      "id": "01-55-03",
+      "hscore": 642539,
+      "mastery": 27359203,
+      "clues": 3
+    },
+    {
+      "id": "01-55-04",
+      "hscore": 640972,
+      "mastery": 27725354,
+      "clues": 3
+    },
+    {
+      "id": "01-55-05",
+      "hscore": 636111,
+      "mastery": 27151299,
+      "clues": 3
+    },
+    {
+      "id": "01-55-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-56-01",
+      "hscore": 650384,
+      "mastery": 175660527,
+      "clues": 3
+    },
+    {
+      "id": "01-56-02",
+      "hscore": 641202,
+      "mastery": 37128056,
+      "clues": 3
+    },
+    {
+      "id": "01-56-03",
+      "hscore": 652106,
+      "mastery": 130380031,
+      "clues": 3
+    },
+    {
+      "id": "01-56-04",
+      "hscore": 648047,
+      "mastery": 128920744,
+      "clues": 3
+    },
+    {
+      "id": "01-56-05",
+      "hscore": 643646,
+      "mastery": 35206660,
+      "clues": 3
+    },
+    {
+      "id": "01-56-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-57-01",
+      "hscore": 636400,
+      "mastery": 20948981,
+      "clues": 3
+    },
+    {
+      "id": "01-57-02",
+      "hscore": 650015,
+      "mastery": 57517150,
+      "clues": 3
+    },
+    {
+      "id": "01-57-03",
+      "hscore": 648416,
+      "mastery": 32102776,
+      "clues": 3
+    },
+    {
+      "id": "01-57-04",
+      "hscore": 650015,
+      "mastery": 27441642,
+      "clues": 3
+    },
+    {
+      "id": "01-57-05",
+      "hscore": 648170,
+      "mastery": 27476923,
+      "clues": 3
+    },
+    {
+      "id": "01-57-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-58-01",
+      "hscore": 647186,
+      "mastery": 18552087,
+      "clues": 3
+    },
+    {
+      "id": "01-58-02",
+      "hscore": 650507,
+      "mastery": 46932362,
+      "clues": 3
+    },
+    {
+      "id": "01-58-03",
+      "hscore": 648047,
+      "mastery": 41617135,
+      "clues": 3
+    },
+    {
+      "id": "01-58-04",
+      "hscore": 646325,
+      "mastery": 40000000,
+      "clues": 3
+    },
+    {
+      "id": "01-58-05",
+      "hscore": 647924,
+      "mastery": 40809717,
+      "clues": 3
+    },
+    {
+      "id": "01-58-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-59-01",
+      "hscore": 646817,
+      "mastery": 53233816,
+      "clues": 3
+    },
+    {
+      "id": "01-59-02",
+      "hscore": 645833,
+      "mastery": 35673475,
+      "clues": 3
+    },
+    {
+      "id": "01-59-03",
+      "hscore": 648170,
+      "mastery": 28382804,
+      "clues": 3
+    },
+    {
+      "id": "01-59-04",
+      "hscore": 648662,
+      "mastery": 32923321,
+      "clues": 3
+    },
+    {
+      "id": "01-59-05",
+      "hscore": 649400,
+      "mastery": 44162915,
+      "clues": 3
+    },
+    {
+      "id": "01-59-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-60-01",
+      "hscore": 646448,
+      "mastery": 25091897,
+      "clues": 3
+    },
+    {
+      "id": "01-60-02",
+      "hscore": 649277,
+      "mastery": 30048963,
+      "clues": 3
+    },
+    {
+      "id": "01-60-03",
+      "hscore": 648293,
+      "mastery": 31587080,
+      "clues": 3
+    },
+    {
+      "id": "01-60-04",
+      "hscore": 647432,
+      "mastery": 30000003,
+      "clues": 3
+    },
+    {
+      "id": "01-60-05",
+      "hscore": 651614,
+      "mastery": 30030524,
+      "clues": 3
+    },
+    {
+      "id": "01-60-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-61-01",
+      "hscore": 647801,
+      "mastery": 26246706,
+      "clues": 3
+    },
+    {
+      "id": "01-61-02",
+      "hscore": 649277,
+      "mastery": 33815387,
+      "clues": 3
+    },
+    {
+      "id": "01-61-03",
+      "hscore": 647432,
+      "mastery": 33782600,
+      "clues": 3
+    },
+    {
+      "id": "01-61-04",
+      "hscore": 648170,
+      "mastery": 33482240,
+      "clues": 3
+    },
+    {
+      "id": "01-61-05",
+      "hscore": 650876,
+      "mastery": 34047701,
+      "clues": 3
+    },
+    {
+      "id": "01-61-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-62-01",
+      "hscore": 649523,
+      "mastery": 23356583,
+      "clues": 3
+    },
+    {
+      "id": "01-62-02",
+      "hscore": 650999,
+      "mastery": 29829072,
+      "clues": 3
+    },
+    {
+      "id": "01-62-03",
+      "hscore": 649892,
+      "mastery": 30088722,
+      "clues": 3
+    },
+    {
+      "id": "01-62-04",
+      "hscore": 650261,
+      "mastery": 29748244,
+      "clues": 3
+    },
+    {
+      "id": "01-62-05",
+      "hscore": 652352,
+      "mastery": 29626860,
+      "clues": 3
+    },
+    {
+      "id": "01-62-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-63-01",
+      "hscore": 651491,
+      "mastery": 26659234,
+      "clues": 3
+    },
+    {
+      "id": "01-63-02",
+      "hscore": 650876,
+      "mastery": 35153797,
+      "clues": 3
+    },
+    {
+      "id": "01-63-03",
+      "hscore": 653090,
+      "mastery": 33619039,
+      "clues": 3
+    },
+    {
+      "id": "01-63-04",
+      "hscore": 651860,
+      "mastery": 33583297,
+      "clues": 3
+    },
+    {
+      "id": "01-63-05",
+      "hscore": 652229,
+      "mastery": 33856304,
+      "clues": 3
+    },
+    {
+      "id": "01-63-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-64-01",
+      "hscore": 647678,
+      "mastery": 22935534,
+      "clues": 3
+    },
+    {
+      "id": "01-64-02",
+      "hscore": 650138,
+      "mastery": 30425853,
+      "clues": 3
+    },
+    {
+      "id": "01-64-03",
+      "hscore": 649646,
+      "mastery": 29565227,
+      "clues": 3
+    },
+    {
+      "id": "01-64-04",
+      "hscore": 651860,
+      "mastery": 30023244,
+      "clues": 3
+    },
+    {
+      "id": "01-64-05",
+      "hscore": 651737,
+      "mastery": 40000000,
+      "clues": 3
+    },
+    {
+      "id": "01-64-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-65-01",
+      "hscore": 652352,
+      "mastery": 20884483,
+      "clues": 3
+    },
+    {
+      "id": "01-65-02",
+      "hscore": 644972,
+      "mastery": 27489347,
+      "clues": 3
+    },
+    {
+      "id": "01-65-03",
+      "hscore": 650753,
+      "mastery": 27013415,
+      "clues": 3
+    },
+    {
+      "id": "01-65-04",
+      "hscore": 649400,
+      "mastery": 27179048,
+      "clues": 3
+    },
+    {
+      "id": "01-65-05",
+      "hscore": 650630,
+      "mastery": 27581365,
+      "clues": 3
+    },
+    {
+      "id": "01-65-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-66-01",
+      "hscore": 651983,
+      "mastery": 18473540,
+      "clues": 3
+    },
+    {
+      "id": "01-66-02",
+      "hscore": 649400,
+      "mastery": 30992444,
+      "clues": 3
+    },
+    {
+      "id": "01-66-03",
+      "hscore": 647063,
+      "mastery": 24307426,
+      "clues": 3
+    },
+    {
+      "id": "01-66-04",
+      "hscore": 648662,
+      "mastery": 24170187,
+      "clues": 3
+    },
+    {
+      "id": "01-66-05",
+      "hscore": 649646,
+      "mastery": 25067282,
+      "clues": 3
+    },
+    {
+      "id": "01-66-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-67-01",
+      "hscore": 649523,
+      "mastery": 21280697,
+      "clues": 3
+    },
+    {
+      "id": "01-67-02",
+      "hscore": 648293,
+      "mastery": 33978287,
+      "clues": 3
+    },
+    {
+      "id": "01-67-03",
+      "hscore": 650384,
+      "mastery": 27172282,
+      "clues": 3
+    },
+    {
+      "id": "01-67-04",
+      "hscore": 650999,
+      "mastery": 27549353,
+      "clues": 3
+    },
+    {
+      "id": "01-67-05",
+      "hscore": 650876,
+      "mastery": 27550874,
+      "clues": 3
+    },
+    {
+      "id": "01-67-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-68-01",
+      "hscore": 646694,
+      "mastery": 18637047,
+      "clues": 3
+    },
+    {
+      "id": "01-68-02",
+      "hscore": 650261,
+      "mastery": 29844758,
+      "clues": 3
+    },
+    {
+      "id": "01-68-03",
+      "hscore": 645587,
+      "mastery": 23865130,
+      "clues": 3
+    },
+    {
+      "id": "01-68-04",
+      "hscore": 645587,
+      "mastery": 24092404,
+      "clues": 3
+    },
+    {
+      "id": "01-68-05",
+      "hscore": 649769,
+      "mastery": 24167903,
+      "clues": 3
+    },
+    {
+      "id": "01-68-06",
+      "hscore": 1,
+      "mastery": 2,
+      "clues": 2
+    },
+    {
+      "id": "01-69-01",
+      "hscore": 648785,
+      "mastery": 21212135,
+      "clues": 3
+    },
+    {
+      "id": "01-69-02",
+      "hscore": 646940,
+      "mastery": 27165207,
+      "clues": 3
+    },
+    {
+      "id": "01-69-03",
+      "hscore": 648539,
+      "mastery": 27120006,
+      "clues": 3
+    },
+    {
+      "id": "01-69-04",
+      "hscore": 645587,
+      "mastery": 27290504,
+      "clues": 3
+    },
+    {
+      "id": "01-69-05",
+      "hscore": 649523,
+      "mastery": 27316412,
+      "clues": 3
+    },
+    {
+      "id": "01-69-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-70-01",
+      "hscore": 651737,
+      "mastery": 18549435,
+      "clues": 3
+    },
+    {
+      "id": "01-70-02",
+      "hscore": 649892,
+      "mastery": 24207470,
+      "clues": 3
+    },
+    {
+      "id": "01-70-03",
+      "hscore": 647924,
+      "mastery": 24256498,
+      "clues": 3
+    },
+    {
+      "id": "01-70-04",
+      "hscore": 649523,
+      "mastery": 24353627,
+      "clues": 3
+    },
+    {
+      "id": "01-70-05",
+      "hscore": 518571,
+      "mastery": 6437506,
+      "clues": 2
+    },
+    {
+      "id": "01-70-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 1
+    },
+    {
+      "id": "01-71-01",
+      "hscore": 649277,
+      "mastery": 20925894,
+      "clues": 3
+    },
+    {
+      "id": "01-71-02",
+      "hscore": 648539,
+      "mastery": 27251599,
+      "clues": 3
+    },
+    {
+      "id": "01-71-03",
+      "hscore": 649769,
+      "mastery": 27176177,
+      "clues": 3
+    },
+    {
+      "id": "01-71-04",
+      "hscore": 649523,
+      "mastery": 27043992,
+      "clues": 3
+    },
+    {
+      "id": "01-71-05",
+      "hscore": 648539,
+      "mastery": 28510898,
+      "clues": 3
+    },
+    {
+      "id": "01-71-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-72-01",
+      "hscore": 648662,
+      "mastery": 18538680,
+      "clues": 3
+    },
+    {
+      "id": "01-72-02",
+      "hscore": 650015,
+      "mastery": 24751373,
+      "clues": 3
+    },
+    {
+      "id": "01-72-03",
+      "hscore": 650753,
+      "mastery": 23907008,
+      "clues": 3
+    },
+    {
+      "id": "01-72-04",
+      "hscore": 648908,
+      "mastery": 23808959,
+      "clues": 3
+    },
+    {
+      "id": "01-72-05",
+      "hscore": 652598,
+      "mastery": 23794956,
+      "clues": 3
+    },
+    {
+      "id": "01-72-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-73-01",
+      "hscore": 647063,
+      "mastery": 20904527,
+      "clues": 3
+    },
+    {
+      "id": "01-73-02",
+      "hscore": 650876,
+      "mastery": 27447498,
+      "clues": 3
+    },
+    {
+      "id": "01-73-03",
+      "hscore": 646694,
+      "mastery": 27465353,
+      "clues": 3
+    },
+    {
+      "id": "01-73-04",
+      "hscore": 648539,
+      "mastery": 27951292,
+      "clues": 3
+    },
+    {
+      "id": "01-73-05",
+      "hscore": 649154,
+      "mastery": 27425862,
+      "clues": 3
+    },
+    {
+      "id": "01-73-06",
+      "hscore": 1,
+      "mastery": 2,
+      "clues": 2
+    },
+    {
+      "id": "01-74-01",
+      "hscore": 647801,
+      "mastery": 18983481,
+      "clues": 3
+    },
+    {
+      "id": "01-74-02",
+      "hscore": 647309,
+      "mastery": 23803543,
+      "clues": 3
+    },
+    {
+      "id": "01-74-03",
+      "hscore": 645956,
+      "mastery": 24069057,
+      "clues": 3
+    },
+    {
+      "id": "01-74-04",
+      "hscore": 647432,
+      "mastery": 23863858,
+      "clues": 3
+    },
+    {
+      "id": "01-74-05",
+      "hscore": 647678,
+      "mastery": 21615031,
+      "clues": 3
+    },
+    {
+      "id": "01-74-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-75-01",
+      "hscore": 645464,
+      "mastery": 21126541,
+      "clues": 3
+    },
+    {
+      "id": "01-75-02",
+      "hscore": 648047,
+      "mastery": 31816690,
+      "clues": 3
+    },
+    {
+      "id": "01-75-03",
+      "hscore": 650261,
+      "mastery": 31967456,
+      "clues": 3
+    },
+    {
+      "id": "01-75-04",
+      "hscore": 646817,
+      "mastery": 27090049,
+      "clues": 3
+    },
+    {
+      "id": "01-75-05",
+      "hscore": 647309,
+      "mastery": 27376371,
+      "clues": 3
+    },
+    {
+      "id": "01-75-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-76-01",
+      "hscore": 650015,
+      "mastery": 19418641,
+      "clues": 3
+    },
+    {
+      "id": "01-76-02",
+      "hscore": 649031,
+      "mastery": 34268591,
+      "clues": 3
+    },
+    {
+      "id": "01-76-03",
+      "hscore": 648416,
+      "mastery": 27560017,
+      "clues": 3
+    },
+    {
+      "id": "01-76-04",
+      "hscore": 648170,
+      "mastery": 26237238,
+      "clues": 3
+    },
+    {
+      "id": "01-76-05",
+      "hscore": 649646,
+      "mastery": 40000000,
+      "clues": 3
+    },
+    {
+      "id": "01-76-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-77-01",
+      "hscore": 648785,
+      "mastery": 35669860,
+      "clues": 3
+    },
+    {
+      "id": "01-77-02",
+      "hscore": 649400,
+      "mastery": 40000000,
+      "clues": 3
+    },
+    {
+      "id": "01-77-03",
+      "hscore": 651491,
+      "mastery": 40000000,
+      "clues": 3
+    },
+    {
+      "id": "01-77-04",
+      "hscore": 649400,
+      "mastery": 35551273,
+      "clues": 3
+    },
+    {
+      "id": "01-77-05",
+      "hscore": 649769,
+      "mastery": 38179364,
+      "clues": 3
+    },
+    {
+      "id": "01-77-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-78-01",
+      "hscore": 651983,
+      "mastery": 40000000,
+      "clues": 3
+    },
+    {
+      "id": "01-78-02",
+      "hscore": 652475,
+      "mastery": 40000000,
+      "clues": 3
+    },
+    {
+      "id": "01-78-03",
+      "hscore": 651983,
+      "mastery": 40000000,
+      "clues": 3
+    },
+    {
+      "id": "01-78-04",
+      "hscore": 650384,
+      "mastery": 29371024,
+      "clues": 3
+    },
+    {
+      "id": "01-78-05",
+      "hscore": 651983,
+      "mastery": 40000000,
+      "clues": 3
+    },
+    {
+      "id": "01-78-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-79-01",
+      "hscore": 650999,
+      "mastery": 21143411,
+      "clues": 3
+    },
+    {
+      "id": "01-79-02",
+      "hscore": 650015,
+      "mastery": 30679734,
+      "clues": 3
+    },
+    {
+      "id": "01-79-03",
+      "hscore": 649769,
+      "mastery": 32205514,
+      "clues": 3
+    },
+    {
+      "id": "01-79-04",
+      "hscore": 650384,
+      "mastery": 27160679,
+      "clues": 3
+    },
+    {
+      "id": "01-79-05",
+      "hscore": 652229,
+      "mastery": 36061624,
+      "clues": 3
+    },
+    {
+      "id": "01-79-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-80-01",
+      "hscore": 650999,
+      "mastery": 18420517,
+      "clues": 3
+    },
+    {
+      "id": "01-80-02",
+      "hscore": 649523,
+      "mastery": 24337820,
+      "clues": 3
+    },
+    {
+      "id": "01-80-03",
+      "hscore": 650630,
+      "mastery": 37906826,
+      "clues": 3
+    },
+    {
+      "id": "01-80-04",
+      "hscore": 649400,
+      "mastery": 40000000,
+      "clues": 3
+    },
+    {
+      "id": "01-80-05",
+      "hscore": 648293,
+      "mastery": 27648467,
+      "clues": 3
+    },
+    {
+      "id": "01-80-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-81-01",
+      "hscore": 649154,
+      "mastery": 40000000,
+      "clues": 3
+    },
+    {
+      "id": "01-81-02",
+      "hscore": 651860,
+      "mastery": 40000000,
+      "clues": 3
+    },
+    {
+      "id": "01-81-03",
+      "hscore": 650138,
+      "mastery": 27447431,
+      "clues": 3
+    },
+    {
+      "id": "01-81-04",
+      "hscore": 651737,
+      "mastery": 38486997,
+      "clues": 3
+    },
+    {
+      "id": "01-81-05",
+      "hscore": 650138,
+      "mastery": 27614500,
+      "clues": 3
+    },
+    {
+      "id": "01-81-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-82-01",
+      "hscore": 646817,
+      "mastery": 18984788,
+      "clues": 3
+    },
+    {
+      "id": "01-82-02",
+      "hscore": 651614,
+      "mastery": 40000000,
+      "clues": 3
+    },
+    {
+      "id": "01-82-03",
+      "hscore": 650630,
+      "mastery": 25079018,
+      "clues": 3
+    },
+    {
+      "id": "01-82-04",
+      "hscore": 650753,
+      "mastery": 40000000,
+      "clues": 3
+    },
+    {
+      "id": "01-82-05",
+      "hscore": 651491,
+      "mastery": 39832574,
+      "clues": 3
+    },
+    {
+      "id": "01-82-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-83-01",
+      "hscore": 650384,
+      "mastery": 24804578,
+      "clues": 3
+    },
+    {
+      "id": "01-83-02",
+      "hscore": 651122,
+      "mastery": 29440456,
+      "clues": 3
+    },
+    {
+      "id": "01-83-03",
+      "hscore": 651245,
+      "mastery": 36894056,
+      "clues": 3
+    },
+    {
+      "id": "01-83-04",
+      "hscore": 652967,
+      "mastery": 40000000,
+      "clues": 3
+    },
+    {
+      "id": "01-83-05",
+      "hscore": 649277,
+      "mastery": 40000000,
+      "clues": 3
+    },
+    {
+      "id": "01-83-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-84-01",
+      "hscore": 652475,
+      "mastery": 40000000,
+      "clues": 3
+    },
+    {
+      "id": "01-84-02",
+      "hscore": 652598,
+      "mastery": 40000000,
+      "clues": 3
+    },
+    {
+      "id": "01-84-03",
+      "hscore": 647924,
+      "mastery": 24014021,
+      "clues": 3
+    },
+    {
+      "id": "01-84-04",
+      "hscore": 648908,
+      "mastery": 31956834,
+      "clues": 3
+    },
+    {
+      "id": "01-84-05",
+      "hscore": 648416,
+      "mastery": 23840126,
+      "clues": 3
+    },
+    {
+      "id": "01-84-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-85-01",
+      "hscore": 648785,
+      "mastery": 21221296,
+      "clues": 3
+    },
+    {
+      "id": "01-85-02",
+      "hscore": 646571,
+      "mastery": 30858090,
+      "clues": 3
+    },
+    {
+      "id": "01-85-03",
+      "hscore": 648785,
+      "mastery": 27104148,
+      "clues": 3
+    },
+    {
+      "id": "01-85-04",
+      "hscore": 650015,
+      "mastery": 31421919,
+      "clues": 3
+    },
+    {
+      "id": "01-85-05",
+      "hscore": 650138,
+      "mastery": 27027784,
+      "clues": 3
+    },
+    {
+      "id": "01-85-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-86-01",
+      "hscore": 650507,
+      "mastery": 26381737,
+      "clues": 3
+    },
+    {
+      "id": "01-86-02",
+      "hscore": 649031,
+      "mastery": 28916187,
+      "clues": 3
+    },
+    {
+      "id": "01-86-03",
+      "hscore": 648293,
+      "mastery": 32618474,
+      "clues": 3
+    },
+    {
+      "id": "01-86-04",
+      "hscore": 648170,
+      "mastery": 26040745,
+      "clues": 3
+    },
+    {
+      "id": "01-86-05",
+      "hscore": 648662,
+      "mastery": 36912990,
+      "clues": 3
+    },
+    {
+      "id": "01-86-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-87-01",
+      "hscore": 650753,
+      "mastery": 21031292,
+      "clues": 3
+    },
+    {
+      "id": "01-87-02",
+      "hscore": 649523,
+      "mastery": 27205762,
+      "clues": 3
+    },
+    {
+      "id": "01-87-03",
+      "hscore": 651737,
+      "mastery": 27067892,
+      "clues": 3
+    },
+    {
+      "id": "01-87-04",
+      "hscore": 650261,
+      "mastery": 27025858,
+      "clues": 3
+    },
+    {
+      "id": "01-87-05",
+      "hscore": 651245,
+      "mastery": 27007388,
+      "clues": 3
+    },
+    {
+      "id": "01-87-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-88-01",
+      "hscore": 648416,
+      "mastery": 18512205,
+      "clues": 3
+    },
+    {
+      "id": "01-88-02",
+      "hscore": 651245,
+      "mastery": 32926861,
+      "clues": 3
+    },
+    {
+      "id": "01-88-03",
+      "hscore": 651245,
+      "mastery": 23915705,
+      "clues": 3
+    },
+    {
+      "id": "01-88-04",
+      "hscore": 650507,
+      "mastery": 23761287,
+      "clues": 3
+    },
+    {
+      "id": "01-88-05",
+      "hscore": 650999,
+      "mastery": 24795065,
+      "clues": 3
+    },
+    {
+      "id": "01-88-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-89-01",
+      "hscore": 651491,
+      "mastery": 36691578,
+      "clues": 3
+    },
+    {
+      "id": "01-89-02",
+      "hscore": 650753,
+      "mastery": 27023869,
+      "clues": 3
+    },
+    {
+      "id": "01-89-03",
+      "hscore": 650384,
+      "mastery": 27432631,
+      "clues": 3
+    },
+    {
+      "id": "01-89-04",
+      "hscore": 648047,
+      "mastery": 27468412,
+      "clues": 3
+    },
+    {
+      "id": "01-89-05",
+      "hscore": 649154,
+      "mastery": 27193198,
+      "clues": 3
+    },
+    {
+      "id": "01-89-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    },
+    {
+      "id": "01-90-01",
+      "hscore": 650384,
+      "mastery": 40000000,
+      "clues": 3
+    },
+    {
+      "id": "01-90-02",
+      "hscore": 649277,
+      "mastery": 38590979,
+      "clues": 3
+    },
+    {
+      "id": "01-90-03",
+      "hscore": 649646,
+      "mastery": 32006777,
+      "clues": 3
+    },
+    {
+      "id": "01-90-04",
+      "hscore": 648047,
+      "mastery": 36591589,
+      "clues": 3
+    },
+    {
+      "id": "01-90-05",
+      "hscore": 650999,
+      "mastery": 40000000,
+      "clues": 3
+    },
+    {
+      "id": "01-90-06",
+      "hscore": 1,
+      "mastery": 1,
+      "clues": 2
+    }
+  ],
+  "iso_items": [
+    {
+      "x": 28,
+      "y": 23,
+      "type_id": 88,
+      "level": 3,
+      "contract_finished_at": 1437024155
+    },
+    {
+      "x": 10,
+      "y": 10,
+      "type_id": 92
+    },
+    {
+      "x": 29,
+      "y": 29,
+      "type_id": 92
+    },
+    {
+      "x": 24,
+      "y": 21,
+      "type_id": 25,
+      "level": 3,
+      "contract_finished_at": 1437024156
+    },
+    {
+      "x": 19,
+      "y": 16,
+      "type_id": 71,
+      "level": 3,
+      "contract_finished_at": 1437024168
+    },
+    {
+      "x": 19,
+      "y": 30,
+      "type_id": 15
+    },
+    {
+      "x": 26,
+      "y": 16,
+      "type_id": 66,
+      "level": 3,
+      "contract_finished_at": 1437024165
+    },
+    {
+      "x": 17,
+      "y": 34,
+      "type_id": 101
+    },
+    {
+      "x": 28,
+      "y": 14,
+      "type_id": 101
+    },
+    {
+      "x": 20,
+      "y": 15,
+      "type_id": 101
+    },
+    {
+      "x": 11,
+      "y": 4,
+      "type_id": 101
+    },
+    {
+      "x": 5,
+      "y": 0,
+      "type_id": 67,
+      "level": 3,
+      "contract_finished_at": 1432626535
+    },
+    {
+      "x": 18,
+      "y": 32,
+      "type_id": 59
+    },
+    {
+      "x": 12,
+      "y": 15,
+      "type_id": 17
+    },
+    {
+      "x": 24,
+      "y": 24,
+      "type_id": 17
+    },
+    {
+      "x": 6,
+      "y": 24,
+      "type_id": 101
+    },
+    {
+      "x": 22,
+      "y": 28,
+      "type_id": 17
+    },
+    {
+      "x": 19,
+      "y": 21,
+      "type_id": 59
+    },
+    {
+      "x": 8,
+      "y": 6,
+      "type_id": 59
+    },
+    {
+      "x": 17,
+      "y": 35,
+      "type_id": 18
+    },
+    {
+      "x": 19,
+      "y": 19,
+      "type_id": 17
+    },
+    {
+      "x": 20,
+      "y": 25,
+      "type_id": 51,
+      "level": 3,
+      "contract_finished_at": 1437024157
+    },
+    {
+      "x": 3,
+      "y": 17,
+      "type_id": 18
+    },
+    {
+      "x": 29,
+      "y": 12,
+      "type_id": 41
+    },
+    {
+      "x": 29,
+      "y": 13,
+      "type_id": 41
+    },
+    {
+      "x": 29,
+      "y": 14,
+      "type_id": 41
+    },
+    {
+      "x": 16,
+      "y": 15,
+      "type_id": 6
+    },
+    {
+      "x": 29,
+      "y": 11,
+      "type_id": 41
+    },
+    {
+      "x": 29,
+      "y": 16,
+      "type_id": 41
+    },
+    {
+      "x": 29,
+      "y": 15,
+      "type_id": 41
+    },
+    {
+      "x": 20,
+      "y": 30,
+      "type_id": 214
+    },
+    {
+      "x": 29,
+      "y": 17,
+      "type_id": 41
+    },
+    {
+      "x": 29,
+      "y": 18,
+      "type_id": 41
+    },
+    {
+      "x": 34,
+      "y": 22,
+      "type_id": 41
+    },
+    {
+      "x": 34,
+      "y": 23,
+      "type_id": 41
+    },
+    {
+      "x": 34,
+      "y": 24,
+      "type_id": 41
+    },
+    {
+      "x": 34,
+      "y": 25,
+      "type_id": 41
+    },
+    {
+      "x": 34,
+      "y": 26,
+      "type_id": 41
+    },
+    {
+      "x": 27,
+      "y": 25,
+      "type_id": 41
+    },
+    {
+      "x": 29,
+      "y": 19,
+      "type_id": 41
+    },
+    {
+      "x": 31,
+      "y": 29,
+      "type_id": 6
+    },
+    {
+      "x": 30,
+      "y": 29,
+      "type_id": 6
+    },
+    {
+      "x": 29,
+      "y": 30,
+      "type_id": 41
+    },
+    {
+      "x": 34,
+      "y": 21,
+      "type_id": 41
+    },
+    {
+      "x": 24,
+      "y": 14,
+      "type_id": 41
+    },
+    {
+      "x": 27,
+      "y": 26,
+      "type_id": 41
+    },
+    {
+      "x": 29,
+      "y": 31,
+      "type_id": 41
+    },
+    {
+      "x": 15,
+      "y": 27,
+      "type_id": 68,
+      "level": 3,
+      "contract_finished_at": 1432626550
+    },
+    {
+      "x": 29,
+      "y": 32,
+      "type_id": 41
+    },
+    {
+      "x": 29,
+      "y": 33,
+      "type_id": 41
+    },
+    {
+      "x": 23,
+      "y": 23,
+      "type_id": 41
+    },
+    {
+      "x": 19,
+      "y": 20,
+      "type_id": 17
+    },
+    {
+      "x": 22,
+      "y": 31,
+      "type_id": 41
+    },
+    {
+      "x": 28,
+      "y": 27,
+      "type_id": 22
+    },
+    {
+      "x": 21,
+      "y": 24,
+      "type_id": 6
+    },
+    {
+      "x": 15,
+      "y": 26,
+      "type_id": 59
+    },
+    {
+      "x": 29,
+      "y": 27,
+      "type_id": 22
+    },
+    {
+      "x": 10,
+      "y": 25,
+      "type_id": 59
+    },
+    {
+      "x": 27,
+      "y": 27,
+      "type_id": 22
+    },
+    {
+      "x": 20,
+      "y": 20,
+      "type_id": 52,
+      "level": 3,
+      "contract_finished_at": 1437024163
+    },
+    {
+      "x": 24,
+      "y": 32,
+      "type_id": 78
+    },
+    {
+      "x": 26,
+      "y": 10,
+      "type_id": 4,
+      "level": 3,
+      "contract_finished_at": 1437024178
+    },
+    {
+      "x": 20,
+      "y": 29,
+      "type_id": 15
+    },
+    {
+      "x": 10,
+      "y": 31,
+      "type_id": 86
+    },
+    {
+      "x": 15,
+      "y": 39,
+      "type_id": 87
+    },
+    {
+      "x": 16,
+      "y": 39,
+      "type_id": 87
+    },
+    {
+      "x": 17,
+      "y": 39,
+      "type_id": 87
+    },
+    {
+      "x": 18,
+      "y": 39,
+      "type_id": 87
+    },
+    {
+      "x": 10,
+      "y": 36,
+      "type_id": 86
+    },
+    {
+      "x": 23,
+      "y": 22,
+      "type_id": 41
+    },
+    {
+      "x": 22,
+      "y": 18,
+      "type_id": 72
+    },
+    {
+      "x": 30,
+      "y": 20,
+      "type_id": 6
+    },
+    {
+      "x": 21,
+      "y": 10,
+      "type_id": 69,
+      "level": 3,
+      "contract_finished_at": 1437024174
+    },
+    {
+      "x": 19,
+      "y": 28,
+      "type_id": 15
+    },
+    {
+      "x": 19,
+      "y": 32,
+      "type_id": 6
+    },
+    {
+      "x": 10,
+      "y": 38,
+      "type_id": 86
+    },
+    {
+      "x": 20,
+      "y": 32,
+      "type_id": 6
+    },
+    {
+      "x": 21,
+      "y": 32,
+      "type_id": 6
+    },
+    {
+      "x": 23,
+      "y": 21,
+      "type_id": 55
+    },
+    {
+      "x": 20,
+      "y": 19,
+      "type_id": 17
+    },
+    {
+      "x": 31,
+      "y": 20,
+      "type_id": 6
+    },
+    {
+      "x": 33,
+      "y": 20,
+      "type_id": 6
+    },
+    {
+      "x": 32,
+      "y": 20,
+      "type_id": 6
+    },
+    {
+      "x": 25,
+      "y": 28,
+      "type_id": 17
+    },
+    {
+      "x": 11,
+      "y": 26,
+      "type_id": 70,
+      "level": 3,
+      "contract_finished_at": 1432626544
+    },
+    {
+      "x": 14,
+      "y": 39,
+      "type_id": 87
+    },
+    {
+      "x": 13,
+      "y": 39,
+      "type_id": 87
+    },
+    {
+      "x": 12,
+      "y": 39,
+      "type_id": 87
+    },
+    {
+      "x": 11,
+      "y": 39,
+      "type_id": 87
+    },
+    {
+      "x": 23,
+      "y": 26,
+      "type_id": 41
+    },
+    {
+      "x": 23,
+      "y": 28,
+      "type_id": 41
+    },
+    {
+      "x": 22,
+      "y": 30,
+      "type_id": 41
+    },
+    {
+      "x": 23,
+      "y": 27,
+      "type_id": 55
+    },
+    {
+      "x": 22,
+      "y": 24,
+      "type_id": 6
+    },
+    {
+      "x": 23,
+      "y": 25,
+      "type_id": 41
+    },
+    {
+      "x": 11,
+      "y": 36,
+      "type_id": 53,
+      "level": 3,
+      "contract_finished_at": 1432626553
+    },
+    {
+      "x": 17,
+      "y": 9,
+      "type_id": 123
+    },
+    {
+      "x": 15,
+      "y": 21,
+      "type_id": 57,
+      "level": 3,
+      "contract_finished_at": 1432626513
+    },
+    {
+      "x": 10,
+      "y": 32,
+      "type_id": 124
+    },
+    {
+      "x": 10,
+      "y": 12,
+      "type_id": 129
+    },
+    {
+      "x": 20,
+      "y": 24,
+      "type_id": 101
+    },
+    {
+      "x": 24,
+      "y": 34,
+      "type_id": 46
+    },
+    {
+      "x": 23,
+      "y": 31,
+      "type_id": 46
+    },
+    {
+      "x": 17,
+      "y": 24,
+      "type_id": 46
+    },
+    {
+      "x": 18,
+      "y": 24,
+      "type_id": 46
+    },
+    {
+      "x": 18,
+      "y": 23,
+      "type_id": 46
+    },
+    {
+      "x": 23,
+      "y": 32,
+      "type_id": 46
+    },
+    {
+      "x": 15,
+      "y": 24,
+      "type_id": 46
+    },
+    {
+      "x": 14,
+      "y": 24,
+      "type_id": 46
+    },
+    {
+      "x": 18,
+      "y": 28,
+      "type_id": 46
+    },
+    {
+      "x": 23,
+      "y": 30,
+      "type_id": 46
+    },
+    {
+      "x": 18,
+      "y": 29,
+      "type_id": 46
+    },
+    {
+      "x": 11,
+      "y": 11,
+      "type_id": 128
+    },
+    {
+      "x": 15,
+      "y": 10,
+      "type_id": 1000,
+      "level": 19
+    },
+    {
+      "x": 28,
+      "y": 13,
+      "type_id": 92
+    },
+    {
+      "x": 14,
+      "y": 27,
+      "type_id": 46
+    },
+    {
+      "x": 14,
+      "y": 26,
+      "type_id": 46
+    },
+    {
+      "x": 11,
+      "y": 32,
+      "type_id": 125
+    },
+    {
+      "x": 20,
+      "y": 11,
+      "type_id": 92
+    },
+    {
+      "x": 3,
+      "y": 16,
+      "type_id": 18
+    },
+    {
+      "x": 2,
+      "y": 21,
+      "type_id": 112,
+      "level": 3,
+      "contract_finished_at": 1432626547
+    },
+    {
+      "x": 13,
+      "y": 10,
+      "type_id": 254
+    },
+    {
+      "x": 9,
+      "y": 1,
+      "type_id": 254
+    },
+    {
+      "x": 19,
+      "y": 25,
+      "type_id": 254
+    },
+    {
+      "x": 23,
+      "y": 29,
+      "type_id": 41
+    },
+    {
+      "x": 11,
+      "y": 35,
+      "type_id": 254
+    },
+    {
+      "x": 1,
+      "y": 23,
+      "type_id": 254
+    },
+    {
+      "x": 11,
+      "y": 34,
+      "type_id": 254
+    },
+    {
+      "x": 33,
+      "y": 21,
+      "type_id": 254
+    },
+    {
+      "x": 9,
+      "y": 6,
+      "type_id": 254
+    },
+    {
+      "x": 14,
+      "y": 35,
+      "type_id": 59
+    },
+    {
+      "x": 15,
+      "y": 2,
+      "type_id": 254
+    },
+    {
+      "x": 29,
+      "y": 20,
+      "type_id": 254
+    },
+    {
+      "x": 27,
+      "y": 15,
+      "type_id": 101
+    },
+    {
+      "x": 8,
+      "y": 24,
+      "type_id": 101
+    },
+    {
+      "x": 28,
+      "y": 15,
+      "type_id": 101
+    },
+    {
+      "x": 5,
+      "y": 8,
+      "type_id": 254
+    },
+    {
+      "x": 8,
+      "y": 5,
+      "type_id": 253
+    },
+    {
+      "x": 3,
+      "y": 15,
+      "type_id": 251
+    },
+    {
+      "x": 18,
+      "y": 31,
+      "type_id": 59
+    },
+    {
+      "x": 8,
+      "y": 12,
+      "type_id": 250
+    },
+    {
+      "x": 21,
+      "y": 19,
+      "type_id": 104
+    },
+    {
+      "x": 12,
+      "y": 24,
+      "type_id": 247
+    },
+    {
+      "x": 15,
+      "y": 25,
+      "type_id": 260
+    },
+    {
+      "x": 10,
+      "y": 24,
+      "type_id": 58
+    },
+    {
+      "x": 9,
+      "y": 4,
+      "type_id": 49
+    },
+    {
+      "x": 16,
+      "y": 35,
+      "type_id": 59
+    },
+    {
+      "x": 19,
+      "y": 15,
+      "type_id": 101
+    },
+    {
+      "x": 34,
+      "y": 20,
+      "type_id": 92
+    },
+    {
+      "x": 14,
+      "y": 10,
+      "type_id": 254
+    },
+    {
+      "x": 5,
+      "y": 15,
+      "type_id": 113,
+      "level": 3,
+      "contract_finished_at": 1432626539
+    },
+    {
+      "x": 21,
+      "y": 0,
+      "type_id": 254
+    },
+    {
+      "x": 14,
+      "y": 2,
+      "type_id": 254
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "type_id": 254
+    },
+    {
+      "x": 22,
+      "y": 4,
+      "type_id": 18
+    },
+    {
+      "x": 5,
+      "y": 19,
+      "type_id": 254
+    },
+    {
+      "x": 18,
+      "y": 38,
+      "type_id": 59
+    },
+    {
+      "x": 22,
+      "y": 0,
+      "type_id": 254
+    },
+    {
+      "x": 15,
+      "y": 3,
+      "type_id": 254
+    },
+    {
+      "x": 16,
+      "y": 25,
+      "type_id": 247
+    },
+    {
+      "x": 0,
+      "y": 24,
+      "type_id": 254
+    },
+    {
+      "x": 23,
+      "y": 33,
+      "type_id": 46
+    },
+    {
+      "x": 5,
+      "y": 18,
+      "type_id": 254
+    },
+    {
+      "x": 2,
+      "y": 18,
+      "type_id": 259
+    },
+    {
+      "x": 14,
+      "y": 23,
+      "type_id": 46
+    },
+    {
+      "x": 16,
+      "y": 30,
+      "type_id": 46
+    },
+    {
+      "x": 18,
+      "y": 25,
+      "type_id": 46
+    },
+    {
+      "x": 32,
+      "y": 21,
+      "type_id": 254
+    },
+    {
+      "x": 12,
+      "y": 34,
+      "type_id": 249
+    },
+    {
+      "x": 18,
+      "y": 30,
+      "type_id": 46
+    },
+    {
+      "x": 1,
+      "y": 24,
+      "type_id": 254
+    },
+    {
+      "x": 10,
+      "y": 34,
+      "type_id": 254
+    },
+    {
+      "x": 17,
+      "y": 0,
+      "type_id": 254
+    },
+    {
+      "x": 5,
+      "y": 25,
+      "type_id": 1001,
+      "level": 19
+    },
+    {
+      "x": 18,
+      "y": 33,
+      "type_id": 95
+    },
+    {
+      "x": 14,
+      "y": 25,
+      "type_id": 46
+    },
+    {
+      "x": 14,
+      "y": 22,
+      "type_id": 46
+    },
+    {
+      "x": 18,
+      "y": 22,
+      "type_id": 46
+    },
+    {
+      "x": 15,
+      "y": 20,
+      "type_id": 46
+    },
+    {
+      "x": 18,
+      "y": 20,
+      "type_id": 46
+    },
+    {
+      "x": 17,
+      "y": 20,
+      "type_id": 46
+    },
+    {
+      "x": 25,
+      "y": 15,
+      "type_id": 46
+    },
+    {
+      "x": 14,
+      "y": 7,
+      "type_id": 46
+    },
+    {
+      "x": 27,
+      "y": 34,
+      "type_id": 46
+    },
+    {
+      "x": 25,
+      "y": 34,
+      "type_id": 46
+    },
+    {
+      "x": 10,
+      "y": 37,
+      "type_id": 86
+    },
+    {
+      "x": 19,
+      "y": 38,
+      "type_id": 86
+    },
+    {
+      "x": 19,
+      "y": 37,
+      "type_id": 86
+    },
+    {
+      "x": 19,
+      "y": 36,
+      "type_id": 86
+    },
+    {
+      "x": 18,
+      "y": 27,
+      "type_id": 46
+    },
+    {
+      "x": 14,
+      "y": 28,
+      "type_id": 46
+    },
+    {
+      "x": 14,
+      "y": 29,
+      "type_id": 46
+    },
+    {
+      "x": 28,
+      "y": 32,
+      "type_id": 46
+    },
+    {
+      "x": 28,
+      "y": 33,
+      "type_id": 46
+    },
+    {
+      "x": 13,
+      "y": 7,
+      "type_id": 46
+    },
+    {
+      "x": 14,
+      "y": 6,
+      "type_id": 46
+    },
+    {
+      "x": 19,
+      "y": 8,
+      "type_id": 46
+    },
+    {
+      "x": 28,
+      "y": 34,
+      "type_id": 46
+    },
+    {
+      "x": 23,
+      "y": 20,
+      "type_id": 41
+    },
+    {
+      "x": 22,
+      "y": 23,
+      "type_id": 129
+    },
+    {
+      "x": 15,
+      "y": 36,
+      "type_id": 35,
+      "level": 3,
+      "contract_finished_at": 1437024195
+    },
+    {
+      "x": 20,
+      "y": 14,
+      "type_id": 56
+    },
+    {
+      "x": 23,
+      "y": 7,
+      "type_id": 101
+    },
+    {
+      "x": 28,
+      "y": 31,
+      "type_id": 46
+    },
+    {
+      "x": 9,
+      "y": 24,
+      "type_id": 123
+    },
+    {
+      "x": 17,
+      "y": 15,
+      "type_id": 6
+    },
+    {
+      "x": 21,
+      "y": 15,
+      "type_id": 6
+    },
+    {
+      "x": 22,
+      "y": 15,
+      "type_id": 6
+    },
+    {
+      "x": 23,
+      "y": 15,
+      "type_id": 6
+    },
+    {
+      "x": 21,
+      "y": 13,
+      "type_id": 6
+    },
+    {
+      "x": 22,
+      "y": 13,
+      "type_id": 6
+    },
+    {
+      "x": 23,
+      "y": 13,
+      "type_id": 6
+    },
+    {
+      "x": 10,
+      "y": 29,
+      "type_id": 123
+    },
+    {
+      "x": 18,
+      "y": 21,
+      "type_id": 46
+    },
+    {
+      "x": 27,
+      "y": 21,
+      "type_id": 109
+    },
+    {
+      "x": 13,
+      "y": 16,
+      "type_id": 60
+    },
+    {
+      "x": 26,
+      "y": 27,
+      "type_id": 22
+    },
+    {
+      "x": 6,
+      "y": 21,
+      "type_id": 166,
+      "level": 3,
+      "contract_finished_at": 1432626541
+    },
+    {
+      "x": 9,
+      "y": 22,
+      "type_id": 38
+    },
+    {
+      "x": 24,
+      "y": 19,
+      "type_id": 271
+    },
+    {
+      "x": 12,
+      "y": 16,
+      "type_id": 158
+    },
+    {
+      "x": 8,
+      "y": 14,
+      "type_id": 154
+    },
+    {
+      "x": 4,
+      "y": 24,
+      "type_id": 157
+    },
+    {
+      "x": 24,
+      "y": 10,
+      "type_id": 157
+    },
+    {
+      "x": 12,
+      "y": 23,
+      "type_id": 157
+    },
+    {
+      "x": 11,
+      "y": 23,
+      "type_id": 157
+    },
+    {
+      "x": 10,
+      "y": 26,
+      "type_id": 157
+    },
+    {
+      "x": 9,
+      "y": 21,
+      "type_id": 266
+    },
+    {
+      "x": 18,
+      "y": 36,
+      "type_id": 157
+    },
+    {
+      "x": 13,
+      "y": 22,
+      "type_id": 157
+    },
+    {
+      "x": 13,
+      "y": 18,
+      "type_id": 157
+    },
+    {
+      "x": 22,
+      "y": 7,
+      "type_id": 157
+    },
+    {
+      "x": 10,
+      "y": 28,
+      "type_id": 157
+    },
+    {
+      "x": 8,
+      "y": 19,
+      "type_id": 157
+    },
+    {
+      "x": 24,
+      "y": 7,
+      "type_id": 157
+    },
+    {
+      "x": 11,
+      "y": 15,
+      "type_id": 269
+    },
+    {
+      "x": 10,
+      "y": 13,
+      "type_id": 269
+    },
+    {
+      "x": 14,
+      "y": 15,
+      "type_id": 269
+    },
+    {
+      "x": 13,
+      "y": 13,
+      "type_id": 269
+    },
+    {
+      "x": 14,
+      "y": 13,
+      "type_id": 269
+    },
+    {
+      "x": 13,
+      "y": 15,
+      "type_id": 269
+    },
+    {
+      "x": 11,
+      "y": 13,
+      "type_id": 269
+    },
+    {
+      "x": 9,
+      "y": 16,
+      "type_id": 269
+    },
+    {
+      "x": 11,
+      "y": 25,
+      "type_id": 157
+    },
+    {
+      "x": 20,
+      "y": 8,
+      "type_id": 46
+    },
+    {
+      "x": 22,
+      "y": 5,
+      "type_id": 157
+    },
+    {
+      "x": 17,
+      "y": 32,
+      "type_id": 157
+    },
+    {
+      "x": 14,
+      "y": 21,
+      "type_id": 46
+    },
+    {
+      "x": 8,
+      "y": 16,
+      "type_id": 269
+    },
+    {
+      "x": 5,
+      "y": 10,
+      "type_id": 183,
+      "level": 3,
+      "contract_finished_at": 1432626532
+    },
+    {
+      "x": 18,
+      "y": 9,
+      "type_id": 157
+    },
+    {
+      "x": 10,
+      "y": 11,
+      "type_id": 157
+    },
+    {
+      "x": 12,
+      "y": 13,
+      "type_id": 157
+    },
+    {
+      "x": 11,
+      "y": 17,
+      "type_id": 158
+    },
+    {
+      "x": 11,
+      "y": 20,
+      "type_id": 270
+    },
+    {
+      "x": 12,
+      "y": 17,
+      "type_id": 161
+    },
+    {
+      "x": 12,
+      "y": 22,
+      "type_id": 267
+    },
+    {
+      "x": 12,
+      "y": 10,
+      "type_id": 156
+    },
+    {
+      "x": 18,
+      "y": 26,
+      "type_id": 85
+    },
+    {
+      "x": 15,
+      "y": 15,
+      "type_id": 157
+    },
+    {
+      "x": 11,
+      "y": 24,
+      "type_id": 164
+    },
+    {
+      "x": 10,
+      "y": 21,
+      "type_id": 266
+    },
+    {
+      "x": 21,
+      "y": 29,
+      "type_id": 157
+    },
+    {
+      "x": 25,
+      "y": 27,
+      "type_id": 17
+    },
+    {
+      "x": 9,
+      "y": 5,
+      "type_id": 19
+    },
+    {
+      "x": 10,
+      "y": 0,
+      "type_id": 211,
+      "level": 3,
+      "contract_finished_at": 1432626526
+    },
+    {
+      "x": 5,
+      "y": 21,
+      "type_id": 19
+    },
+    {
+      "x": 18,
+      "y": 0,
+      "type_id": 19
+    },
+    {
+      "x": 19,
+      "y": 35,
+      "type_id": 42
+    },
+    {
+      "x": 7,
+      "y": 13,
+      "type_id": 265
+    },
+    {
+      "x": 7,
+      "y": 14,
+      "type_id": 159
+    },
+    {
+      "x": 11,
+      "y": 16,
+      "type_id": 158
+    },
+    {
+      "x": 10,
+      "y": 39,
+      "type_id": 13
+    },
+    {
+      "x": 19,
+      "y": 39,
+      "type_id": 13
+    },
+    {
+      "x": 14,
+      "y": 8,
+      "type_id": 13
+    },
+    {
+      "x": 14,
+      "y": 5,
+      "type_id": 13
+    },
+    {
+      "x": 11,
+      "y": 22,
+      "type_id": 266
+    },
+    {
+      "x": 23,
+      "y": 0,
+      "type_id": 273
+    },
+    {
+      "x": 20,
+      "y": 4,
+      "type_id": 171
+    },
+    {
+      "x": 20,
+      "y": 13,
+      "type_id": 17
+    },
+    {
+      "x": 23,
+      "y": 4,
+      "type_id": 182
+    },
+    {
+      "x": 24,
+      "y": 4,
+      "type_id": 182
+    },
+    {
+      "x": 20,
+      "y": 10,
+      "type_id": 170
+    },
+    {
+      "x": 23,
+      "y": 2,
+      "type_id": 178
+    },
+    {
+      "x": 15,
+      "y": 1,
+      "type_id": 170
+    },
+    {
+      "x": 24,
+      "y": 3,
+      "type_id": 173
+    },
+    {
+      "x": 23,
+      "y": 3,
+      "type_id": 173
+    },
+    {
+      "x": 21,
+      "y": 9,
+      "type_id": 170
+    },
+    {
+      "x": 17,
+      "y": 33,
+      "type_id": 101
+    },
+    {
+      "x": 24,
+      "y": 2,
+      "type_id": 178
+    },
+    {
+      "x": 15,
+      "y": 16,
+      "type_id": 9
+    },
+    {
+      "x": 10,
+      "y": 30,
+      "type_id": 13
+    },
+    {
+      "x": 10,
+      "y": 5,
+      "type_id": 215,
+      "level": 3,
+      "contract_finished_at": 1432626527
+    },
+    {
+      "x": 3,
+      "y": 24,
+      "type_id": 178
+    },
+    {
+      "x": 12,
+      "y": 8,
+      "type_id": 34
+    },
+    {
+      "x": 19,
+      "y": 5,
+      "type_id": 228,
+      "level": 3,
+      "contract_finished_at": 1437024179
+    },
+    {
+      "x": 28,
+      "y": 29,
+      "type_id": 46
+    },
+    {
+      "x": 10,
+      "y": 3,
+      "type_id": 46
+    },
+    {
+      "x": 32,
+      "y": 22,
+      "type_id": 46
+    },
+    {
+      "x": 33,
+      "y": 23,
+      "type_id": 46
+    },
+    {
+      "x": 25,
+      "y": 31,
+      "type_id": 46
+    },
+    {
+      "x": 32,
+      "y": 23,
+      "type_id": 46
+    },
+    {
+      "x": 13,
+      "y": 8,
+      "type_id": 46
+    },
+    {
+      "x": 23,
+      "y": 5,
+      "type_id": 121
+    },
+    {
+      "x": 2,
+      "y": 24,
+      "type_id": 12
+    },
+    {
+      "x": 29,
+      "y": 10,
+      "type_id": 92
+    },
+    {
+      "x": 22,
+      "y": 6,
+      "type_id": 114
+    },
+    {
+      "x": 13,
+      "y": 11,
+      "type_id": 60
+    },
+    {
+      "x": 26,
+      "y": 15,
+      "type_id": 92
+    },
+    {
+      "x": 5,
+      "y": 24,
+      "type_id": 92
+    },
+    {
+      "x": 8,
+      "y": 7,
+      "type_id": 82
+    },
+    {
+      "x": 22,
+      "y": 8,
+      "type_id": 46
+    },
+    {
+      "x": 19,
+      "y": 9,
+      "type_id": 46
+    },
+    {
+      "x": 22,
+      "y": 9,
+      "type_id": 46
+    },
+    {
+      "x": 21,
+      "y": 8,
+      "type_id": 46
+    },
+    {
+      "x": 13,
+      "y": 3,
+      "type_id": 24
+    },
+    {
+      "x": 11,
+      "y": 10,
+      "type_id": 92
+    },
+    {
+      "x": 5,
+      "y": 22,
+      "type_id": 92
+    },
+    {
+      "x": 12,
+      "y": 3,
+      "type_id": 46
+    },
+    {
+      "x": 11,
+      "y": 3,
+      "type_id": 46
+    },
+    {
+      "x": 16,
+      "y": 1,
+      "type_id": 236,
+      "level": 3,
+      "contract_finished_at": 1432626520
+    },
+    {
+      "x": 12,
+      "y": 4,
+      "type_id": 94
+    },
+    {
+      "x": 27,
+      "y": 31,
+      "type_id": 199
+    },
+    {
+      "x": 27,
+      "y": 19,
+      "type_id": 196
+    },
+    {
+      "x": 26,
+      "y": 31,
+      "type_id": 199
+    },
+    {
+      "x": 26,
+      "y": 29,
+      "type_id": 198
+    },
+    {
+      "x": 27,
+      "y": 22,
+      "type_id": 206
+    },
+    {
+      "x": 19,
+      "y": 24,
+      "type_id": 206
+    },
+    {
+      "x": 13,
+      "y": 0,
+      "type_id": 197
+    },
+    {
+      "x": 20,
+      "y": 9,
+      "type_id": 206
+    },
+    {
+      "x": 8,
+      "y": 3,
+      "type_id": 207
+    },
+    {
+      "x": 26,
+      "y": 33,
+      "type_id": 199
+    },
+    {
+      "x": 27,
+      "y": 33,
+      "type_id": 199
+    },
+    {
+      "x": 25,
+      "y": 10,
+      "type_id": 203
+    },
+    {
+      "x": 15,
+      "y": 0,
+      "type_id": 19
+    },
+    {
+      "x": 16,
+      "y": 0,
+      "type_id": 19
+    },
+    {
+      "x": 18,
+      "y": 7,
+      "type_id": 94
+    },
+    {
+      "x": 17,
+      "y": 30,
+      "type_id": 56
+    },
+    {
+      "x": 18,
+      "y": 15,
+      "type_id": 206
+    },
+    {
+      "x": 28,
+      "y": 22,
+      "type_id": 206
+    },
+    {
+      "x": 27,
+      "y": 23,
+      "type_id": 206
+    },
+    {
+      "x": 27,
+      "y": 32,
+      "type_id": 199
+    },
+    {
+      "x": 18,
+      "y": 16,
+      "type_id": 203
+    },
+    {
+      "x": 20,
+      "y": 1,
+      "type_id": 244,
+      "level": 3,
+      "contract_finished_at": 1437024180
+    },
+    {
+      "x": 17,
+      "y": 16,
+      "type_id": 94
+    },
+    {
+      "x": 21,
+      "y": 4,
+      "type_id": 94
+    },
+    {
+      "x": 26,
+      "y": 32,
+      "type_id": 199
+    },
+    {
+      "x": 0,
+      "y": 23,
+      "type_id": 292
+    },
+    {
+      "x": 8,
+      "y": 0,
+      "type_id": 290
+    },
+    {
+      "x": 5,
+      "y": 13,
+      "type_id": 119
+    },
+    {
+      "x": 25,
+      "y": 29,
+      "type_id": 286
+    },
+    {
+      "x": 20,
+      "y": 0,
+      "type_id": 19
+    },
+    {
+      "x": 14,
+      "y": 32,
+      "type_id": 29
+    },
+    {
+      "x": 6,
+      "y": 18,
+      "type_id": 27
+    },
+    {
+      "x": 22,
+      "y": 32,
+      "type_id": 94
+    },
+    {
+      "x": 19,
+      "y": 31,
+      "type_id": 94
+    },
+    {
+      "x": 5,
+      "y": 23,
+      "type_id": 94
+    },
+    {
+      "x": 20,
+      "y": 28,
+      "type_id": 94
+    },
+    {
+      "x": 13,
+      "y": 19,
+      "type_id": 60
+    },
+    {
+      "x": 0,
+      "y": 21,
+      "type_id": 21
+    },
+    {
+      "x": 18,
+      "y": 8,
+      "type_id": 18
+    },
+    {
+      "x": 29,
+      "y": 34,
+      "type_id": 13
+    },
+    {
+      "x": 10,
+      "y": 35,
+      "type_id": 19
+    },
+    {
+      "x": 16,
+      "y": 6,
+      "type_id": 39
+    },
+    {
+      "x": 13,
+      "y": 23,
+      "type_id": 39
+    },
+    {
+      "x": 16,
+      "y": 32,
+      "type_id": 132
+    },
+    {
+      "x": 17,
+      "y": 5,
+      "type_id": 60
+    },
+    {
+      "x": 13,
+      "y": 6,
+      "type_id": 46
+    },
+    {
+      "x": 13,
+      "y": 5,
+      "type_id": 46
+    },
+    {
+      "x": 9,
+      "y": 0,
+      "type_id": 280
+    },
+    {
+      "x": 24,
+      "y": 29,
+      "type_id": 101
+    },
+    {
+      "x": 32,
+      "y": 27,
+      "type_id": 101
+    },
+    {
+      "x": 32,
+      "y": 24,
+      "type_id": 33
+    },
+    {
+      "x": 24,
+      "y": 31,
+      "type_id": 46
+    },
+    {
+      "x": 16,
+      "y": 7,
+      "type_id": 76
+    },
+    {
+      "x": 10,
+      "y": 33,
+      "type_id": 13
+    },
+    {
+      "x": 20,
+      "y": 12,
+      "type_id": 129
+    },
+    {
+      "x": 0,
+      "y": 18,
+      "type_id": 242
+    },
+    {
+      "x": 8,
+      "y": 17,
+      "type_id": 127
+    },
+    {
+      "x": 24,
+      "y": 16,
+      "type_id": 110
+    },
+    {
+      "x": 10,
+      "y": 8,
+      "type_id": 39
+    },
+    {
+      "x": 13,
+      "y": 29,
+      "type_id": 103
+    },
+    {
+      "x": 10,
+      "y": 4,
+      "type_id": 280
+    },
+    {
+      "x": 29,
+      "y": 21,
+      "type_id": 44
+    },
+    {
+      "x": 19,
+      "y": 23,
+      "type_id": 17
+    },
+    {
+      "x": 14,
+      "y": 30,
+      "type_id": 46
+    },
+    {
+      "x": 15,
+      "y": 30,
+      "type_id": 46
+    },
+    {
+      "x": 18,
+      "y": 35,
+      "type_id": 103
+    },
+    {
+      "x": 0,
+      "y": 15,
+      "type_id": 245,
+      "level": 3,
+      "contract_finished_at": 1430030246
+    },
+    {
+      "x": 25,
+      "y": 25,
+      "type_id": 148
+    },
+    {
+      "x": 28,
+      "y": 28,
+      "type_id": 153
+    },
+    {
+      "x": 26,
+      "y": 28,
+      "type_id": 153
+    },
+    {
+      "x": 27,
+      "y": 28,
+      "type_id": 153
+    },
+    {
+      "x": 30,
+      "y": 27,
+      "type_id": 143
+    },
+    {
+      "x": 15,
+      "y": 31,
+      "type_id": 116
+    },
+    {
+      "x": 8,
+      "y": 4,
+      "type_id": 145
+    },
+    {
+      "x": 24,
+      "y": 26,
+      "type_id": 145
+    },
+    {
+      "x": 34,
+      "y": 27,
+      "type_id": 145
+    },
+    {
+      "x": 32,
+      "y": 26,
+      "type_id": 145
+    },
+    {
+      "x": 26,
+      "y": 24,
+      "type_id": 150
+    },
+    {
+      "x": 24,
+      "y": 28,
+      "type_id": 145
+    },
+    {
+      "x": 29,
+      "y": 28,
+      "type_id": 153
+    },
+    {
+      "x": 22,
+      "y": 34,
+      "type_id": 13
+    },
+    {
+      "x": 25,
+      "y": 24,
+      "type_id": 22
+    },
+    {
+      "x": 20,
+      "y": 33,
+      "type_id": 16
+    },
+    {
+      "x": 24,
+      "y": 27,
+      "type_id": 153
+    },
+    {
+      "x": 26,
+      "y": 34,
+      "type_id": 56
+    },
+    {
+      "x": 32,
+      "y": 29,
+      "type_id": 145
+    },
+    {
+      "x": 14,
+      "y": 31,
+      "type_id": 117
+    },
+    {
+      "x": 33,
+      "y": 28,
+      "type_id": 152
+    },
+    {
+      "x": 33,
+      "y": 26,
+      "type_id": 101
+    },
+    {
+      "x": 32,
+      "y": 28,
+      "type_id": 101
+    },
+    {
+      "x": 7,
+      "y": 8,
+      "type_id": 39
+    },
+    {
+      "x": 19,
+      "y": 27,
+      "type_id": 103
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "type_id": 246,
+      "level": 3,
+      "contract_finished_at": 1432626531
+    },
+    {
+      "x": 33,
+      "y": 27,
+      "type_id": 101
+    },
+    {
+      "x": 17,
+      "y": 31,
+      "type_id": 17
+    },
+    {
+      "x": 7,
+      "y": 3,
+      "type_id": 59
+    },
+    {
+      "x": 18,
+      "y": 17,
+      "type_id": 59
+    },
+    {
+      "x": 19,
+      "y": 26,
+      "type_id": 59
+    },
+    {
+      "x": 28,
+      "y": 21,
+      "type_id": 254
+    },
+    {
+      "x": 8,
+      "y": 10,
+      "type_id": 60
+    },
+    {
+      "x": 25,
+      "y": 30,
+      "type_id": 46
+    },
+    {
+      "x": 33,
+      "y": 22,
+      "type_id": 46
+    },
+    {
+      "x": 28,
+      "y": 30,
+      "type_id": 46
+    },
+    {
+      "x": 31,
+      "y": 21,
+      "type_id": 46
+    },
+    {
+      "x": 31,
+      "y": 22,
+      "type_id": 46
+    },
+    {
+      "x": 26,
+      "y": 19,
+      "type_id": 17
+    },
+    {
+      "x": 24,
+      "y": 25,
+      "type_id": 17
+    },
+    {
+      "x": 20,
+      "y": 34,
+      "type_id": 17
+    },
+    {
+      "x": 13,
+      "y": 30,
+      "type_id": 101
+    },
+    {
+      "x": 22,
+      "y": 29,
+      "type_id": 263
+    },
+    {
+      "x": 11,
+      "y": 30,
+      "type_id": 28
+    },
+    {
+      "x": 16,
+      "y": 31,
+      "type_id": 118
+    },
+    {
+      "x": 24,
+      "y": 30,
+      "type_id": 263
+    },
+    {
+      "x": 19,
+      "y": 29,
+      "type_id": 101
+    },
+    {
+      "x": 23,
+      "y": 8,
+      "type_id": 108
+    },
+    {
+      "x": 24,
+      "y": 11,
+      "type_id": 60
+    },
+    {
+      "x": 11,
+      "y": 18,
+      "type_id": 60
+    },
+    {
+      "x": 18,
+      "y": 18,
+      "type_id": 221
+    },
+    {
+      "x": 9,
+      "y": 19,
+      "type_id": 225
+    },
+    {
+      "x": 7,
+      "y": 24,
+      "type_id": 225
+    },
+    {
+      "x": 18,
+      "y": 19,
+      "type_id": 221
+    },
+    {
+      "x": 13,
+      "y": 2,
+      "type_id": 221
+    },
+    {
+      "x": 24,
+      "y": 15,
+      "type_id": 221
+    },
+    {
+      "x": 19,
+      "y": 22,
+      "type_id": 221
+    },
+    {
+      "x": 12,
+      "y": 29,
+      "type_id": 221
+    },
+    {
+      "x": 16,
+      "y": 5,
+      "type_id": 221
+    },
+    {
+      "x": 14,
+      "y": 38,
+      "type_id": 225
+    },
+    {
+      "x": 16,
+      "y": 16,
+      "type_id": 221
+    },
+    {
+      "x": 6,
+      "y": 8,
+      "type_id": 225
+    },
+    {
+      "x": 22,
+      "y": 16,
+      "type_id": 220
+    },
+    {
+      "x": 13,
+      "y": 32,
+      "type_id": 132
+    },
+    {
+      "x": 24,
+      "y": 13,
+      "type_id": 221
+    },
+    {
+      "x": 16,
+      "y": 33,
+      "type_id": 132
+    },
+    {
+      "x": 13,
+      "y": 33,
+      "type_id": 132
+    },
+    {
+      "x": 8,
+      "y": 1,
+      "type_id": 222
+    },
+    {
+      "x": 8,
+      "y": 2,
+      "type_id": 222
+    },
+    {
+      "x": 21,
+      "y": 33,
+      "type_id": 16
+    },
+    {
+      "x": 11,
+      "y": 29,
+      "type_id": 221
+    },
+    {
+      "x": 16,
+      "y": 34,
+      "type_id": 132
+    },
+    {
+      "x": 20,
+      "y": 23,
+      "type_id": 221
+    },
+    {
+      "x": 25,
+      "y": 13,
+      "type_id": 101
+    },
+    {
+      "x": 11,
+      "y": 8,
+      "type_id": 46
+    },
+    {
+      "x": 9,
+      "y": 2,
+      "type_id": 46
+    },
+    {
+      "x": 9,
+      "y": 3,
+      "type_id": 46
+    },
+    {
+      "x": 14,
+      "y": 14,
+      "type_id": 225
+    },
+    {
+      "x": 23,
+      "y": 24,
+      "type_id": 41
+    },
+    {
+      "x": 24,
+      "y": 18,
+      "type_id": 17
+    },
+    {
+      "x": 15,
+      "y": 34,
+      "type_id": 132
+    },
+    {
+      "x": 13,
+      "y": 31,
+      "type_id": 132
+    },
+    {
+      "x": 14,
+      "y": 34,
+      "type_id": 132
+    },
+    {
+      "x": 25,
+      "y": 14,
+      "type_id": 101
+    },
+    {
+      "x": 26,
+      "y": 13,
+      "type_id": 262
+    },
+    {
+      "x": 15,
+      "y": 17,
+      "type_id": 261,
+      "level": 3,
+      "contract_finished_at": 1437024170
+    },
+    {
+      "x": 21,
+      "y": 23,
+      "type_id": 221
+    },
+    {
+      "x": 16,
+      "y": 24,
+      "type_id": 56
+    },
+    {
+      "x": 16,
+      "y": 9,
+      "type_id": 225
+    },
+    {
+      "x": 14,
+      "y": 18,
+      "type_id": 225
+    },
+    {
+      "x": 10,
+      "y": 27,
+      "type_id": 295
+    },
+    {
+      "x": 14,
+      "y": 37,
+      "type_id": 296
+    },
+    {
+      "x": 26,
+      "y": 20,
+      "type_id": 17
+    },
+    {
+      "x": 25,
+      "y": 18,
+      "type_id": 17
+    },
+    {
+      "x": 21,
+      "y": 34,
+      "type_id": 17
+    },
+    {
+      "x": 23,
+      "y": 34,
+      "type_id": 46
+    },
+    {
+      "x": 22,
+      "y": 33,
+      "type_id": 238
+    },
+    {
+      "x": 18,
+      "y": 37,
+      "type_id": 234
+    },
+    {
+      "x": 6,
+      "y": 3,
+      "type_id": 237
+    },
+    {
+      "x": 13,
+      "y": 21,
+      "type_id": 232
+    },
+    {
+      "x": 16,
+      "y": 20,
+      "type_id": 46
+    }
+  ],
+  "events": [
+    {
+      "id": "seafood_may_2015",
+      "milestone": 0,
+      "items": {
+
+      },
+      "intro_shown_at": 1432149343,
+      "finished_at": null,
+      "trades": [
+
+      ]
+    },
+    {
+      "id": "jazz_july_2015",
+      "milestone": 0,
+      "items": {
+
+      },
+      "intro_shown_at": 1437016875,
+      "finished_at": null,
+      "trades": [
+
+      ]
+    }
+  ],
+  "daily_puzzle": {
+    "scene_id": "01-72-02",
+    "day": 1,
+    "last_completion": 1432619195,
+    "utc_offset": -10800
+  },
+  "tournament": {
+    "hscore": 0,
+    "id": null,
+    "medals": [
+      0,
+      1,
+      0
+    ],
+    "rounds": 0
+  },
+  "viral_gate": [
+
+  ],
+  "tournament_gate": [
+
+  ],
+  "country": null
+}

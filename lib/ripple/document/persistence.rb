@@ -89,9 +89,13 @@ module Ripple
       end
 
       def update_robject
-        robject.key = key if robject.key != key
-        robject.content_type = 'application/x-snappy'
+        robject.content_type = 'application/json'
 
+        if self.respond_to?(:compress?) && self.compress?
+          robject.content_type = 'application/x-snappy'
+        end
+
+        robject.key = key if robject.key != key
         robject.data = attributes_for_persistence
       end
 

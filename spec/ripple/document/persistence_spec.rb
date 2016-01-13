@@ -6,6 +6,10 @@ describe Ripple::Document::Persistence do
       include Ripple::Document
       self.bucket_name = 'u'
       property :text, String, short: 't'
+
+      def compress?
+        true
+      end
     end
 
     @user = User.new

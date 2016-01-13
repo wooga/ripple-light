@@ -82,6 +82,10 @@ module Ripple
 
       attr_writer :robject
 
+      def compress?
+        false
+      end
+
       def robject
         @robject ||= Riak::RObject.new(self.class.bucket, key).tap do |obj|
           obj.content_type = "application/json"
@@ -89,11 +93,11 @@ module Ripple
       end
 
       def update_robject
-        robject.content_type = 'application/json'
-
-        if self.respond_to?(:compress?) && self.compress?
-          robject.content_type = 'application/x-snappy'
-        end
+        robject.content_type = if self.compress?
+                                 'application/x-snappy'
+                               else
+                                 'application/json'
+                               end
 
         robject.key = key if robject.key != key
         robject.data = attributes_for_persistence

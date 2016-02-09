@@ -13,7 +13,8 @@ module Ripple
 
     module ClassMethods
       def instantiate(attrs)
-        self.new.tap do |object|
+        self.allocate.tap do |object|
+          object.instance_variable_set("@new", true)
           object.raw_attributes = attrs
         end
       end

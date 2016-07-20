@@ -40,7 +40,7 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<riak-client>, ["~> 1.4.3"])
       s.add_runtime_dependency(%q<json>, ["~> 1.8.0"])
       s.add_runtime_dependency(%q<snappy>, ["~> 0.0.12"])
-      s.add_development_dependency(%q<rspec>, ["~> 2.8.0"])
+      s.add_development_dependency(%q<rspec>, ["~> 3.5.0"])
       s.add_development_dependency(%q<rake>, ["~> 10.0.3"])
       s.add_development_dependency(%q<jeweler>, ["~> 1.8.4"])
       s.add_development_dependency(%q<benchmark-ips>, ["~> 2.3.0"])

@@ -90,7 +90,7 @@ describe Ripple::Callbacks do
       doc.after_update { callbacks << :after }
       doc.around_update(lambda { callbacks << :around })
 
-      subject.stub!(:new?).and_return(false)
+      subject.stub(:new?).and_return(false)
       subject.save
       callbacks.should == [:before, :around, :after ]
     end

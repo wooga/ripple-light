@@ -1,0 +1,4 @@
+proxy:
+  protocol: pbc
+  host: 'localhost'
+  pb_port: 3000

@@ -1,7 +1,8 @@
+require 'ripple/persistence_proxy'
 
 describe Ripple do
   it "should have a client" do
-    Ripple.client.should be_kind_of(Riak::Client)
+    Ripple.client.should_not be_nil
   end
 
   it "should have a unique client per thread" do
@@ -16,16 +17,16 @@ describe Ripple do
 
   it "should allow setting the client manually" do
     Ripple.should respond_to(:client=)
-    client = Riak::Client.new(:http_port => 9000)
+    client = PersistenceProxy::Client.new(pb_port: 9000, host: 'localhost')
     Ripple.client = client
     Ripple.client.should == client
   end
 
   it "should reset the client when the configuration changes" do
     c = Ripple.client
-    Ripple.config = {:http_port => 9000}
+    Ripple.config = {pb_port: 9000, host: 'localhost'}
     Ripple.client.should_not == c
-    Ripple.client.node.http_port.should == 9000
+    Ripple.client.port.should == 9000
   end
 
 

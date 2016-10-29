@@ -1,0 +1,48 @@
+syntax = "proto3";
+
+option java_package = "com.wooga.g9.protobuf.msg";
+option optimize_for = SPEED;
+
+
+enum Status {
+  Ok = 0;
+  NotFound = 1;
+}
+
+message SaveRequest {
+  string bucket      = 1;
+  string key         = 2;
+  string contentType = 3;
+  bytes  content     = 4;
+}
+
+message SaveResponse {
+  Status status      = 1;
+  string bucket      = 2;
+  string key         = 3;
+}
+
+message GetRequest {
+  string bucket      = 1;
+  string key         = 2;
+}
+
+message GetResponse {
+  Status status      = 1;
+  string bucket      = 2;
+  string key         = 3;
+
+  string contentType = 4;
+  bytes  content     = 5;
+}
+
+message DeleteRequest {
+  string bucket      = 1;
+  string key         = 2;
+}
+
+message DeleteResponse {
+  Status status      = 1;
+  string bucket      = 2;
+  string key         = 3;
+}

@@ -4,6 +4,9 @@ PATH
     ripple-light (0.0.0)
       activemodel (~> 3.2.12)
       activesupport (~> 3.2.12)
+      em-synchrony (~> 1.0.3)
+      eventmachine (~> 1.0.8)
+      google-protobuf (~> 3.1.0)
       json (~> 1.8.0)
       riak-client (~> 1.4.3)
       snappy (~> 0.0.12)
@@ -11,17 +14,21 @@ PATH
 GEM
   remote: http://rubygems.org/
   specs:
-    activemodel (3.2.22)
-      activesupport (= 3.2.22)
+    activemodel (3.2.22.5)
+      activesupport (= 3.2.22.5)
       builder (~> 3.0.0)
-    activesupport (3.2.22)
+    activesupport (3.2.22.5)
       i18n (~> 0.6, >= 0.6.4)
       multi_json (~> 1.0)
     addressable (2.4.0)
     beefcake (1.0.0)
     benchmark-ips (2.3.0)
     builder (3.0.4)
+    byebug (9.0.6)
     diff-lcs (1.2.5)
+    em-synchrony (1.0.5)
+      eventmachine (>= 1.0.0.beta.1)
+    eventmachine (1.0.9.1)
     faraday (0.8.11)
       multipart-post (~> 1.2.0)
     git (1.2.9.1)
@@ -32,6 +39,7 @@ GEM
       multi_json (~> 1.4)
       nokogiri (~> 1.5.2)
       oauth2
+    google-protobuf (3.1.0)
     hashie (3.4.3)
     highline (1.7.8)
     i18n (0.7.0)
@@ -81,13 +89,14 @@ GEM
       rspec-support (~> 3.5.0)
     rspec-support (3.5.0)
     ruby-prof (0.15.9)
-    snappy (0.0.12)
+    snappy (0.0.15)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   benchmark-ips (~> 2.3.0)
+  byebug (~> 9.0.6)
   jeweler (~> 1.8.4)
   rake (~> 10.0.3)
   ripple-light!

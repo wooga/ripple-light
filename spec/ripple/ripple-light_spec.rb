@@ -2,31 +2,31 @@ require 'ripple/persistence_proxy'
 
 describe Ripple do
   it "should have a client" do
-    Ripple.client.should be_kind_of(Riak::Client)
+    expect(Ripple.client).to be_kind_of(Riak::Client)
   end
 
   it "should have a unique client per thread" do
     client = Ripple.client
-    th = Thread.new { Ripple.client.should_not == client }
+    th = Thread.new { expect(Ripple.client).not_to eq(client) }
     th.join
   end
 
   it "should be configurable" do
-    Ripple.should respond_to(:config)
+    expect(Ripple).to respond_to(:config)
   end
 
   it "should allow setting the client manually" do
-    Ripple.should respond_to(:client=)
+    expect(Ripple).to respond_to(:client=)
     client = Riak::Client.new(host: 'localhost')
     Ripple.client = client
-    Ripple.client.should == client
+    expect(Ripple.client).to eq(client)
   end
 
   it "should reset the client when the configuration changes" do
     c = Ripple.client
     Ripple.config = {http_port: 9000}
-    Ripple.client.should_not == c
-    Ripple.client.node.http_port.should == 9000
+    expect(Ripple.client).not_to eq(c)
+    expect(Ripple.client.node.http_port).to eq(9000)
   end
 
 
@@ -35,17 +35,17 @@ describe Ripple do
     after  { Ripple.date_format = @date_format }
 
     it "should default to :iso8601" do
-      Ripple.date_format.should == :iso8601
+      expect(Ripple.date_format).to eq(:iso8601)
     end
 
     it "should allow setting via the config" do
       Ripple.config = {"date_format" => "rfc822"}
-      Ripple.date_format.should == :rfc822
+      expect(Ripple.date_format).to eq(:rfc822)
     end
 
     it "should allow setting manually" do
       Ripple.date_format = "rfc822"
-      Ripple.date_format.should == :rfc822
+      expect(Ripple.date_format).to eq(:rfc822)
     end
   end
 end

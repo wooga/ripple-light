@@ -7,58 +7,57 @@ describe Ripple::AttributeMethods do
 
   describe "#attribute" do
     it "should return the default value" do
-      @bar.default.should == 'bar'
+      expect(@bar.default).to eq('bar')
     end
 
     it "return nil if not set" do
-      @bar.foo.should == nil
+      expect(@bar.foo).to be_nil
     end
 
     it "return the value set before" do
       @bar.attributes[:foo] = "12"
-      @bar.foo.should == "12"
+      expect(@bar.foo).to eq("12")
     end
   end
 
   describe "#changed?" do
     it "return false if nothing has changed" do
-      @bar.changed?.should == false
+      expect(@bar.changed?).to be false
     end
 
     it "return true if changed" do
       @bar.foo = "12"
-      @bar.changed?.should == true
+      expect(@bar.changed?).to be true
     end
   end
 
   describe "changes" do
     it "return a empty hash if nothing has changed" do
-      @bar.changes.should == {}
+      expect(@bar.changes).to eq({})
     end
 
     it "return a hash with changes" do
       @bar.foo = "12"
-      @bar.changes.should == {:foo => nil}
+      expect(@bar.changes).to eq({:foo => nil})
     end
   end
 
   describe "#attribute=" do
     it "set the value" do
       @bar.foo = "12"
-      @bar.attributes.should == {:foo => "12"}
+      expect(@bar.attributes).to eq({:foo => "12"})
     end
   end
-
 
   describe "#raw_attributes=" do
     it "should set the attributes" do
       @bar.raw_attributes = {:f => "12"}
-      @bar.attributes.should == {:foo => "12"}
+      expect(@bar.attributes).to eq({:foo => "12"})
     end
 
     it "should cast the values" do
       @bar.raw_attributes = {:f => 1}
-      @bar.attributes.should == {:foo => "1"}
+      expect(@bar.attributes).to eq({:foo => "1"})
     end
 
     describe "with associations" do
@@ -68,7 +67,7 @@ describe Ripple::AttributeMethods do
 
       it "should set raw attributes on the associations" do
         allow_message_expectations_on_nil
-        @customer.email.should_receive(:replace).with(:a => 'foo')
+        expect(@customer.email).to receive(:replace).with(:a => 'foo')
         @customer.raw_attributes = {:e => {:a => 'foo'}, :n => 'bar'}
       end
     end
@@ -77,23 +76,23 @@ describe Ripple::AttributeMethods do
   describe "#raw_attributes" do
     it "should not return nil values" do
       @bar.foo = nil
-      @bar.raw_attributes.should == {}
+      expect(@bar.raw_attributes).to eq({})
     end
 
     it "should not return blank values" do
       @bar.foo = " "
-      @bar.raw_attributes.should == {}
+      expect(@bar.raw_attributes).to eq({})
     end
 
     it "should not return default values" do
       @bar.default = "bar"
-      @bar.raw_attributes.should == {}
+      expect(@bar.raw_attributes).to eq({})
     end
 
     it "should return a hash with short names" do
       @bar.foo      = "12"
       @bar.default  = "45"
-      @bar.raw_attributes.should == {:f => "12", :d => "45"}
+      expect(@bar.raw_attributes).to eq({:f => "12", :d => "45"})
     end
   end
 end

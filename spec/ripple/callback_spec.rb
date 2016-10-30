@@ -20,9 +20,9 @@ describe Ripple::Callbacks do
 
   it "should add create, update, save, and destroy callback declarations" do
     [:save, :create, :update, :destroy].each do |event|
-      doc.private_instance_methods.map(&:to_s).should include("_run_#{event}_callbacks")
+      expect(doc.private_instance_methods.map(&:to_s)).to include("_run_#{event}_callbacks")
       [:before, :after, :around].each do |time|
-        doc.should respond_to("#{time}_#{event}")
+        expect(doc).to respond_to("#{time}_#{event}")
       end
     end
   end
@@ -30,7 +30,7 @@ describe Ripple::Callbacks do
   describe "invoking callbacks" do
     before :each do
       @client = Ripple.client
-      @client.stub(:store_object => true)
+      allow(@client).to receive(:store_object) { true }
     end
 
     it "should call save callbacks on save" do
@@ -39,7 +39,7 @@ describe Ripple::Callbacks do
       doc.after_save { callbacks << :after }
       doc.around_save(lambda { callbacks << :around })
       subject.save
-      callbacks.should == [ :before, :around, :after ]
+      expect(callbacks).to eq([ :before, :around, :after ])
     end
 
     it "propagates callbacks to embedded associated documents" do
@@ -48,7 +48,7 @@ describe Ripple::Callbacks do
       embedded.before_save { callbacks << :side }
       subject.embeddeds << embedded.new
       subject.save
-      callbacks.should == [:side, :box]
+      expect(callbacks).to eq([:side, :box])
     end
 
     it 'does not persist the object to riak multiple times when propagating callbacks' do
@@ -56,7 +56,7 @@ describe Ripple::Callbacks do
       embedded.before_save { }
       subject.embeddeds << embedded.new << embedded.new
 
-      subject.robject.should_receive(:store).once
+      expect(subject.robject).to receive(:store).once
       subject.save
     end
 
@@ -66,12 +66,12 @@ describe Ripple::Callbacks do
       embedded.after_save  { callbacks << :after_save  }
 
       subject.embeddeds << embedded.new
-      subject.robject.stub(:store) do
+      allow(subject.robject).to receive(:store) do
         callbacks << :save
       end
       subject.save
 
-      callbacks.should == [:before_save, :save, :after_save]
+      expect(callbacks).to eq([:before_save, :save, :after_save])
     end
 
     it "should call create callbacks on save when the document is new" do
@@ -81,7 +81,7 @@ describe Ripple::Callbacks do
       doc.around_create(lambda { callbacks << :around })
       
       subject.save
-      callbacks.should == [:before, :around, :after ]
+      expect(callbacks).to eq([:before, :around, :after ])
     end
 
     it "should call update callbacks on save when the document is not new" do
@@ -90,9 +90,9 @@ describe Ripple::Callbacks do
       doc.after_update { callbacks << :after }
       doc.around_update(lambda { callbacks << :around })
 
-      subject.stub(:new?).and_return(false)
+      allow(subject).to receive(:new?) { false }
       subject.save
-      callbacks.should == [:before, :around, :after ]
+      expect(callbacks).to eq([:before, :around, :after ])
     end
 
     describe "destroy callbacks" do
@@ -105,7 +105,7 @@ describe Ripple::Callbacks do
         doc.around_destroy(lambda { _callbacks << :around })
       end
 
-      after { callbacks.should == [ :before, :around, :after ] }
+      after { expect(callbacks).to eq([ :before, :around, :after ]) }
 
       it "invokes them when #destroy is called" do
         subject.destroy

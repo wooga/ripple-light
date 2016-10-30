@@ -66,4 +66,17 @@ describe "Persistence Proxy Integration" do
 
     expect(user.reload.name).to eq("Chandler Bing")
   end
+
+  it "can delete an object from the database" do
+    user = User.create(key: "123", name: "Chandler Bing")
+
+    user = User.find("123")
+    
+    expect(user.name).to eq("Chandler Bing")
+
+    expect(user.destroy).to eq(true)
+
+    user = User.find("123")
+    expect(user).to be_nil
+  end
 end

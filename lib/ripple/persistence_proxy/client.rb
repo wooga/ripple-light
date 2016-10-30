@@ -19,10 +19,15 @@ module PersistenceProxy
       )
     end
 
+    # TODO: Error handling for failing reads
     def get_object(bucket, key, options = {})
       take_backend do |backend|
         response = backend.fetch_object(bucket.name, key) 
-        # TODO: add error handling for :NotFound objects
+
+        if response.status == :NotFound
+          raise Riak::ProtobuffsFailedRequest.new(:not_found, 'not_found')
+        end
+
         PersistenceProxy::Object.new(bucket, key).tap do |object|
           object.content_type = response.contentType
           object.raw_data = response.content
@@ -30,6 +35,7 @@ module PersistenceProxy
       end
     end
 
+    # TODO: Error handling for failing writes
     def store_object(object, options = {})
       take_backend do |backend|
         backend.store_object(
@@ -43,6 +49,16 @@ module PersistenceProxy
 
     def reload_object(object, options = {})
       get_object(object.bucket, object.key, options)
+    end
+
+    # TODO: Error handling for failing deletes
+    def delete_object(object, options = {})
+      take_backend do |backend|
+        backend.delete_object(
+          object.bucket.name,
+          object.key
+        )
+      end
     end
 
     def bucket(name)
@@ -73,7 +89,8 @@ module PersistenceProxy
         pool.take(take_options) do |backend|
           begin 
             yield backend
-          rescue => e
+          # FIXME: Should not manage SocketError at this level
+          rescue SocketError => e
             # Log error
             puts "Protobuf error: #{e.inspect} for #{backend.inspect}"
 

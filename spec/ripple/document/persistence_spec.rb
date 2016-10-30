@@ -11,6 +11,13 @@ describe Ripple::Document::Persistence do
       embedded_in :user
     end
 
+    class Email
+      include Ripple::EmbeddedDocument
+
+      property :address, String, short: 'a'
+      embedded_in :user
+    end
+
     class User
       include Ripple::Document
       self.bucket_name = 'u'
@@ -20,6 +27,8 @@ describe Ripple::Document::Persistence do
       property :name, String, short: 'n'
 
       one :address, class_name: 'Address', short: 'a'
+
+      many :emails, class_name: 'Email', short: 'e'
     end
 
     class UserCompressed < User
@@ -63,12 +72,19 @@ describe Ripple::Document::Persistence do
       address = Address.new
       address.street = "Some street"
       @user_compressed.address = address
+
+      @user_compressed.emails << Email.new(address: 'chandler@bing.com')
+      @user_compressed.emails << Email.new(address: 'chandler@bong.com')
       @user_compressed.save
 
       user = User.find("3")
       expect(user.name).to eq(@name)
       expect(user.key).to eq("3")
       expect(user.address.street).to eq("Some street")
+      expect(user.emails.count).to eq(2)
+
+      expect(user.emails.first.address).to match(/chandler@b(i|o)ng\.com/)
+      expect(user.emails.last.address).to match(/chandler@b(i|o)ng\.com/)
     end
   end
 end

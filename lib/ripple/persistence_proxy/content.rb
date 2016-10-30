@@ -1,3 +1,5 @@
+require 'riak/serializers'
+
 module PersistenceProxy
   class Content
     attr_accessor :content_type
@@ -29,19 +31,11 @@ module PersistenceProxy
     end
 
     def serialize(payload)
-      if content_type == "application/x-snappy"
-        Snappy.deflate JSON.generate(payload)
-      elsif content_type == "application/json"
-        payload.to_json
-      end
+      Riak::Serializers.serialize(content_type, payload)
     end
 
-    def deserialize(payload)
-      if content_type == "application/x-snappy"
-        JSON.parse(Snappy.inflate(payload), symbolize_names: true)
-      elsif content_type == "application/json"
-        JSON.parse(payload, symbolize_names: true)
-      end
+    def deserialize(body)
+      Riak::Serializers.deserialize(content_type, body)
     end
   end
 end

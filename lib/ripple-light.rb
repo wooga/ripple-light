@@ -1,3 +1,4 @@
+require 'riak'
 require 'ripple/document'
 require 'ripple/embedded_document'
 require 'ripple/core_ext'
@@ -9,7 +10,8 @@ module Ripple
   class << self
 
     def client
-      Thread.current[:ripple_client] ||= PersistenceProxy::Client.new(client_config)
+      # Thread.current[:ripple_client] ||= PersistenceProxy::Client.new(client_config)
+      Thread.current[:ripple_client] ||= Riak::Client.new(client_config)
     end
 
     def client=(value)
@@ -52,7 +54,7 @@ module Ripple
     end
 
     def client_config
-      config
+      config.slice(*Riak::Client::VALID_OPTIONS)
     end
   end
 end

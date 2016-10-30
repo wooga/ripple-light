@@ -8,7 +8,7 @@ module PersistenceProxy
 
     def initialize(options = {})
       @host = options.fetch(:host)
-      @port = options.fetch(:pb_port)
+      @port = options.fetch(:proxy_port)
       @max_retries = options[:max_retries] || 0
       @evented = options[:evented] || false
 

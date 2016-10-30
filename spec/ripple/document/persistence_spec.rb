@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe Ripple::Document::Persistence do
-  Ripple.load_configuration('spec/ripple_proxy.yml', [:proxy])
+  Ripple.load_configuration('spec/ripple_proxy.yml', [:test])
 
   before do
     class Address

@@ -76,7 +76,7 @@ module Ripple
       def destroy
         destroy!
         true
-      rescue
+      rescue Riak::FailedRequest
         false
       end
 
@@ -87,7 +87,7 @@ module Ripple
       end
 
       def robject
-        @robject ||= PersistenceProxy::Object.new(self.class.bucket, key).tap do |obj|
+        @robject ||= Riak::RObject.new(self.class.bucket, key).tap do |obj|
           obj.content_type = "application/json"
         end
       end

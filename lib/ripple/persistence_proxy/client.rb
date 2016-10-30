@@ -41,6 +41,10 @@ module PersistenceProxy
       end
     end
 
+    def reload_object(object, options = {})
+      get_object(object.bucket, object.key, options)
+    end
+
     def bucket(name)
       @bucket_cache ||= {}
       @bucket_cache[name] ||= PersistenceProxy::Bucket.new(self, name)

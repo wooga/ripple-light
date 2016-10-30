@@ -25,5 +25,9 @@ module PersistenceProxy
       @bucket.client.store_object(self, options)
       self
     end
+
+    def reload(options = {})
+      @bucket.client.reload_object(self, options)
+    end
   end
 end

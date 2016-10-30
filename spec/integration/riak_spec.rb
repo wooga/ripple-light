@@ -32,16 +32,6 @@ describe "Riak Integration" do
 
       many :emails, class_name: 'Email', short: 'e'
     end
-
-    class UserCompressed < User
-      def compress?
-        true
-      end
-    end
-
-    @user = User.new
-    @user_compressed = UserCompressed.new
-    @name = "Chandler"
   end
 
   after(:each) do
@@ -49,52 +39,31 @@ describe "Riak Integration" do
     Thread.current[:ripple_client] = nil
   end
 
-  it "uses the application/x-snappy content type to serialize the data" do
-    expect(Ripple.client).to be_kind_of(Riak::Client)
-    expect(Ripple.robject_class).to be(Riak::RObject)
+  it "can store and fetch an object" do
+    user = User.new(key: "123", name: "Chandler Bing")
+    user.address = Address.new(street: "Some street")
+    user.emails << Email.new(address: 'chandler@bing.com')
+    user.emails << Email.new(address: 'chanandler@bong.com')
 
-    @user_compressed.name = @name
-    @user_compressed.key = "1"
-    @user_compressed.save
+    expect(user.save).to be true
 
-    user = User.find("1")
-    expect(user.robject.content.content_type).to eq("application/x-snappy")
-    expect(user.key).to eq("1")
-    expect(user.name).to eq(@name)
+    user = User.find("123")
+
+    expect(user.name).to eq("Chandler Bing")
+    expect(user.address.street).to eq("Some street")
+    expect(user.emails.count).to eq(2)
   end
 
-  it "does not use the application/x-snappy content type to serialize the data by default" do
-    @user.name = @name
-    @user.key = "2"
-    @user.save
+  it "can reload an object from the database" do
+    user = User.new(key: "123", name: "Chandler Bing")
+    user.address = Address.new(street: "Some street")
+    user.emails << Email.new(address: 'chandler@bing.com')
+    user.emails << Email.new(address: 'chanandler@bong.com')
 
-    user = User.find("2")
-    expect(user.robject.content.content_type).to eq("application/json")
-    expect(user.key).to eq("2")
-    expect(user.name).to eq(@name)
-  end
+    expect(user.save).to be true
 
-  describe "storing and retrieving associations" do
-    it "stores associations" do
-      @user_compressed.key = "3"
-      @user_compressed.name = @name
+    user.name = "Not stored"
 
-      address = Address.new
-      address.street = "Some street"
-      @user_compressed.address = address
-
-      @user_compressed.emails << Email.new(address: 'chandler@bing.com')
-      @user_compressed.emails << Email.new(address: 'chandler@bong.com')
-      @user_compressed.save
-
-      user = User.find("3")
-      expect(user.name).to eq(@name)
-      expect(user.key).to eq("3")
-      expect(user.address.street).to eq("Some street")
-      expect(user.emails.count).to eq(2)
-
-      expect(user.emails.first.address).to match(/chandler@b(i|o)ng\.com/)
-      expect(user.emails.last.address).to match(/chandler@b(i|o)ng\.com/)
-    end
+    expect(user.reload.name).to eq("Chandler Bing")
   end
 end

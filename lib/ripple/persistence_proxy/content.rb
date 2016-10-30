@@ -15,6 +15,11 @@ module PersistenceProxy
       @data
     end
 
+    def raw_data=(new_raw_data)
+      @data = nil
+      @raw_data = new_raw_data
+    end
+
     def raw_data
       if @data && !@raw_data
         @raw_data = serialize(@data)
@@ -33,9 +38,9 @@ module PersistenceProxy
 
     def deserialize(payload)
       if content_type == "application/x-snappy"
-        JSON.parse(Snappy.inflate payload)
+        JSON.parse(Snappy.inflate(payload), symbolize_names: true)
       elsif content_type == "application/json"
-        JSON.parse(payload)
+        JSON.parse(payload, symbolize_names: true)
       end
     end
   end

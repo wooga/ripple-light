@@ -10,11 +10,13 @@ module PersistenceProxy
 
     def_delegators :content,
       :content_type, :content_type=,
-      :data, :data=
+      :data, :data=,
+      :raw_data, :raw_data=
 
     def initialize(bucket, key)
       @content = PersistenceProxy::Content.new
       @bucket = bucket
+      @key = key
 
       yield self if block_given?
     end

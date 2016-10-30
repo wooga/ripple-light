@@ -6,5 +6,9 @@ module PersistenceProxy
       @client = client
       @name = name
     end
+
+    def get(key, options = {})
+      client.get_object(self, key, options)
+    end
   end
 end

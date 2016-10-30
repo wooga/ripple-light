@@ -18,6 +18,17 @@ module PersistenceProxy
       )
     end
 
+    def get_object(bucket, key, options = {})
+      take_backend do |backend|
+        response = backend.fetch_object(bucket.name, key) 
+        # TODO: add error handling for :NotFound objects
+        PersistenceProxy::Object.new(bucket, key).tap do |object|
+          object.content_type = response.contentType
+          object.raw_data = response.content
+        end
+      end
+    end
+
     def store_object(object, options = {})
       take_backend do |backend|
         backend.store_object(

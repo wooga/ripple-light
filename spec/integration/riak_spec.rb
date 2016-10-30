@@ -1,9 +1,11 @@
 require 'spec_helper'
 
-describe Ripple::Document::Persistence do
-  Ripple.load_configuration('spec/ripple_proxy.yml', [:test])
+describe "Riak Integration" do
+  before(:each) do
+    Ripple.load_configuration('spec/riak.yml', [:test])
+    Thread.current[:persistence_proxy] = false
+    Thread.current[:ripple_client] = nil
 
-  before do
     class Address
       include Ripple::EmbeddedDocument
 
@@ -42,7 +44,15 @@ describe Ripple::Document::Persistence do
     @name = "Chandler"
   end
 
+  after(:each) do
+    Thread.current[:persistence_proxy] = nil
+    Thread.current[:ripple_client] = nil
+  end
+
   it "uses the application/x-snappy content type to serialize the data" do
+    expect(Ripple.client).to be_kind_of(Riak::Client)
+    expect(Ripple.robject_class).to be(Riak::RObject)
+
     @user_compressed.name = @name
     @user_compressed.key = "1"
     @user_compressed.save

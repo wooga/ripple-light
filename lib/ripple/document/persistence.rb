@@ -87,7 +87,7 @@ module Ripple
       end
 
       def robject
-        @robject ||= Riak::RObject.new(self.class.bucket, key).tap do |obj|
+        @robject ||= Ripple.robject_class.new(self.class.bucket, key).tap do |obj|
           obj.content_type = "application/json"
         end
       end

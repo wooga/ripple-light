@@ -4,6 +4,7 @@ require 'ripple/persistence_proxy/pool'
 
 module PersistenceProxy
   class Client
+    VALID_OPTIONS = [:host, :proxy_port]
     attr_reader :host, :port, :max_retries, :evented, :pool
 
     def initialize(options = {})

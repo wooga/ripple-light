@@ -1,0 +1,7 @@
+test:
+  protocol: pbc
+  host: 'localhost'
+  pb_port: 9087
+  http_port: 9098
+  proxy_port: 3000
+  evented: false

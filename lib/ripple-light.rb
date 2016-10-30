@@ -6,12 +6,29 @@ require 'ripple/serializers'
 require 'ripple/persistence_proxy'
 require 'active_support/core_ext'
 
+Riak::Client::VALID_OPTIONS += PersistenceProxy::Client::VALID_OPTIONS
+
 module Ripple
   class << self
 
     def client
-      # Thread.current[:ripple_client] ||= PersistenceProxy::Client.new(client_config)
-      Thread.current[:ripple_client] ||= Riak::Client.new(client_config)
+      Thread.current[:ripple_client] ||= client_class.new(client_config)
+    end
+
+    def client_class
+      if Thread.current[:persistence_proxy]
+        PersistenceProxy::Client
+      else
+        Riak::Client
+      end
+    end
+
+    def robject_class
+      if Thread.current[:persistence_proxy]
+        PersistenceProxy::Object
+      else
+        Riak::RObject
+      end
     end
 
     def client=(value)
@@ -54,7 +71,11 @@ module Ripple
     end
 
     def client_config
-      config.slice(*Riak::Client::VALID_OPTIONS)
+      config.slice(*valid_options)
+    end
+
+    def valid_options
+      Riak::Client::VALID_OPTIONS
     end
   end
 end

@@ -1,4 +1,7 @@
+require 'riak'
 require 'snappy'
+
+Riak.json_options.merge!(symbolize_keys: true)
 
 module Ripple
   module SnappySerializer

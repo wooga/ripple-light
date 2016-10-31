@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.version = "0.0.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Stefan Mees"]
+  s.authors = ["Stefan Mees", "Giuseppe Modarelli"]
   s.date = "2013-03-27"
   s.description = " longer description of your gem"
   s.email = "stefan.mees@wooga.net"
@@ -40,34 +40,46 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<riak-client>, ["~> 1.4.3"])
       s.add_runtime_dependency(%q<json>, ["~> 1.8.0"])
       s.add_runtime_dependency(%q<snappy>, ["~> 0.0.12"])
+      s.add_runtime_dependency(%q<eventmachine>, ["~> 1.0.8"])
+      s.add_runtime_dependency(%q<em-synchrony>, ["~> 1.0.3"])
+      s.add_runtime_dependency(%q<google-protobuf>, ["~> 3.1.0"])
       s.add_development_dependency(%q<rspec>, ["~> 3.5.0"])
       s.add_development_dependency(%q<rake>, ["~> 10.0.3"])
       s.add_development_dependency(%q<jeweler>, ["~> 1.8.4"])
       s.add_development_dependency(%q<benchmark-ips>, ["~> 2.3.0"])
       s.add_development_dependency(%q<ruby-prof>, ["~> 0.15.8"])
+      s.add_development_dependency(%q<byebug>, ["~> 9.0.6"])
     else
       s.add_dependency(%q<activesupport>, ["~> 3.2.12"])
       s.add_dependency(%q<activemodel>, ["~> 3.2.12"])
       s.add_dependency(%q<riak-client>, ["~> 1.4.3"])
       s.add_dependency(%q<snappy>, ["~> 0.0.12"])
+      s.add_dependency(%q<eventmachine>, [" ~> 1.0.8"])
+      s.add_dependency(%q<em-synchrony>, [" ~> 1.0.3"])
+      s.add_dependency(%q<google-protobuf>, ["~> 3.1.0"])
       s.add_dependency(%q<rspec>, ["~> 2.8.0"])
       s.add_dependency(%q<rake>, ["~> 10.0.3"])
       s.add_dependency(%q<jeweler>, ["~> 1.8.4"])
       s.add_dependency(%q<json>, ["~> 1.8.0"])
       s.add_dependency(%q<benchmark-ips>, ["~> 2.3.0"])
       s.add_dependency(%q<ruby-prof>, ["~> 0.15.8"])
+      s.add_dependency(%q<byebug>, ["~> 9.0.6"])
     end
   else
     s.add_dependency(%q<activesupport>, ["~> 3.2.12"])
     s.add_dependency(%q<activemodel>, ["~> 3.2.12"])
     s.add_dependency(%q<riak-client>, ["~> 1.4.3"])
     s.add_dependency(%q<snappy>, ["~> 0.0.12"])
+    s.add_dependency(%q<eventmachine>, [" ~> 1.0.8"])
+    s.add_dependency(%q<em-synchrony>, [" ~> 1.0.3"])
+    s.add_dependency(%q<google-protobuf>, ["~> 3.1.0"])
     s.add_dependency(%q<rspec>, ["~> 2.8.0"])
     s.add_dependency(%q<rake>, ["~> 10.0.3"])
     s.add_dependency(%q<jeweler>, ["~> 1.8.4"])
     s.add_dependency(%q<json>, ["~> 1.8.0"])
     s.add_dependency(%q<benchmark-ips>, ["~> 2.3.0"])
     s.add_dependency(%q<ruby-prof>, ["~> 0.15.8"])
+    s.add_dependency(%q<byebug>, ["~> 9.0.6"])
   end
 end
 

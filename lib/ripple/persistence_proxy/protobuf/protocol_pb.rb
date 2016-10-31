@@ -38,6 +38,7 @@ Google::Protobuf::DescriptorPool.generated_pool.build do
   add_enum "Status" do
     value :Ok, 0
     value :NotFound, 1
+    value :Error, 2
   end
 end
 

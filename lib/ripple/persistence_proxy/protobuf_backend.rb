@@ -22,29 +22,31 @@ module PersistenceProxy
     def fetch_object(bucket, key)
       message = GetRequest.new(bucket: bucket, key: key)
 
-      write_protobuff(GetRequest, message)
+      write_protobuff(:GetRequest, message)
       decode_response
     end
 
     def store_object(bucket, key, content_type, content)
       message = SaveRequest.new(bucket: bucket, key: key, contentType: content_type, content: content)
 
-      write_protobuff(SaveRequest, message)
+      write_protobuff(:SaveRequest, message)
       decode_response
     end
-  
+
     def delete_object(bucket, key)
       message = DeleteRequest.new(bucket: bucket, key: key)
 
-      write_protobuff(DeleteRequest, message)
+      write_protobuff(:DeleteRequest, message)
       decode_response
     end
 
     private
 
-    def write_protobuff(message_class, request)
+    def write_protobuff(message_type, request)
+      reset_socket if socket && socket.closed?
+
       encoded = request.to_proto
-      header  = [encoded.size, id_for_message(message_class.to_s)].pack("NC")
+      header  = [encoded.size, id_for_message(message_type)].pack("NC")
 
       socket.write(header + encoded)
     end
@@ -52,11 +54,15 @@ module PersistenceProxy
     def decode_response
       response_header = socket.read(PROTOBUF_HEADER_SIZE)
 
-      raise SocketError, "Unexpected EOF on PBC socket" if response_header.nil?
+      raise SocketError, "Unexpected EOF on PBC socket" \
+        if response_header.nil? || response_header.size != PROTOBUF_HEADER_SIZE
 
       size, message_id = response_header.unpack("NC")
 
       response_content = socket.read(size)
+      raise SocketError, "Unexpected EOF on PBC socket" \
+        if response_content.nil? || response_content.size != size
+
       class_for_message_id(message_id.to_i).decode(response_content)
     end
 
@@ -98,18 +104,18 @@ module PersistenceProxy
     end
 
     def id_for_message(message)
-      case message.to_s
-        when "SaveRequest"
+      case message
+        when :SaveRequest
           0
-        when "SaveResponse"
+        when :SaveResponse
           1
-        when "GetRequest"
+        when :GetRequest
           2
-        when "GetResponse"
+        when :GetResponse
           3
-        when "DeleteRequest"
+        when :DeleteRequest
           4
-        when "DeleteResponse"
+        when :DeleteResponse
           5
       end
     end

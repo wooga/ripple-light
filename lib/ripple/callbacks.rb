@@ -12,7 +12,6 @@ module Ripple
       define_model_callbacks *CALLBACK_TYPES
     end
 
-
     def really_save(*args, &block)
       run_save_callbacks do
         super
@@ -27,7 +26,6 @@ module Ripple
         end
       end
     end
-
 
     def destroy!(*args, &block)
       run_callbacks(:destroy) do

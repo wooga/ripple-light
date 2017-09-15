@@ -1,7 +1,11 @@
 require 'active_support/concern'
-require 'active_model/naming'
+require 'active_support/callbacks'
 
 require 'ripple/core_ext'
+require 'active_support/core_ext/class/attribute'
+require 'active_support/core_ext/array/wrap'
+require 'active_support/core_ext/object/duplicable'
+require 'active_support/core_ext/hash/keys'
 
 require 'ripple/properties'
 require 'ripple/attribute_methods'
@@ -20,7 +24,6 @@ module Ripple
     extend ActiveSupport::Concern
 
     included do
-      #extend ActiveModel::Naming
       extend BucketAccess
       include Ripple::Document::Key
       include Ripple::Document::Persistence

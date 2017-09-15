@@ -17,6 +17,8 @@ describe Ripple::Document::Persistence do
 
     @user = User.new
     @user_comressed = UserCompressed.new
+
+    expect_any_instance_of(Riak::RObject).to receive(:store) { true }
   end
 
   it "uses the application/x-snappy content type to serialize the data" do
@@ -24,8 +26,8 @@ describe Ripple::Document::Persistence do
     @user_comressed.text = text
     @user_comressed.save
 
-    @user_comressed.robject.content.content_type.should == "application/x-snappy"
-    @user_comressed.robject.content.data.should == { "t" => text }
+    expect(@user_comressed.robject.content.content_type).to eq("application/x-snappy")
+    expect(@user_comressed.robject.content.data).to eq({ t: text })
   end
 
   it "does not use the application/x-snappy content type to serialize the data by default" do
@@ -33,7 +35,7 @@ describe Ripple::Document::Persistence do
     @user.text = text
     @user.save
 
-    @user.robject.content.content_type.should == "application/json"
-    @user.robject.content.data.should == { "t" => text }
+    expect(@user.robject.content.content_type).to eq("application/json")
+    expect(@user.robject.content.data).to eq({ t: text })
   end
 end

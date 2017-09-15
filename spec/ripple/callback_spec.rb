@@ -27,8 +27,9 @@ describe Ripple::Callbacks do
       end
 
       def around_save
+        self.save_callbacks_called << :around_1
         yield
-        self.save_callbacks_called << :around
+        self.save_callbacks_called << :around_2
       end
 
       property :create_callbacks_called, Array, default: []
@@ -46,8 +47,9 @@ describe Ripple::Callbacks do
       end
 
       def around_create
+        self.create_callbacks_called << :around_1
         yield
-        self.create_callbacks_called << :around
+        self.create_callbacks_called << :around_2
       end
 
       property :update_callbacks_called, Array, default: []
@@ -65,8 +67,9 @@ describe Ripple::Callbacks do
       end
 
       def around_update
+        self.update_callbacks_called << :around_1
         yield
-        self.update_callbacks_called << :around
+        self.update_callbacks_called << :around_2
       end
 
       property :destroy_callbacks_called, Array, default: []
@@ -84,8 +87,9 @@ describe Ripple::Callbacks do
       end
 
       def around_destroy
+        self.destroy_callbacks_called << :around_1
         yield
-        self.destroy_callbacks_called << :around
+        self.destroy_callbacks_called << :around_2
       end
     end
   end
@@ -142,7 +146,7 @@ describe Ripple::Callbacks do
     it "should call save callbacks on save" do
       expect(subject.save_callbacks_called).to eq([])
       subject.save
-      expect(subject.save_callbacks_called).to eq([:before, :around, :after])
+      expect(subject.save_callbacks_called).to eq([:before, :around_1, :around_2, :after])
     end
 
     it "propagates callbacks to embedded associated documents" do
@@ -174,7 +178,7 @@ describe Ripple::Callbacks do
     it "should call create callbacks on save when the document is new" do
       expect(subject.create_callbacks_called).to eq([])
       subject.save
-      expect(subject.create_callbacks_called).to eq([:before, :around, :after])
+      expect(subject.create_callbacks_called).to eq([:before, :around_1, :around_2, :after])
     end
 
     it "should call update callbacks on save when the document is not new" do
@@ -182,20 +186,20 @@ describe Ripple::Callbacks do
 
       allow(subject).to receive(:new?) { false }
       subject.save
-      expect(subject.update_callbacks_called).to eq([:before, :around, :after])
+      expect(subject.update_callbacks_called).to eq([:before, :around_1, :around_2, :after])
     end
 
     describe "destroy callbacks" do
       it "invokes them when #destroy is called" do
         expect(subject.destroy_callbacks_called).to eq([])
         subject.destroy
-        expect(subject.destroy_callbacks_called).to eq([:before, :around, :after])
+        expect(subject.destroy_callbacks_called).to eq([:before, :around_1, :around_2, :after])
       end
 
       it "invokes them when #destroy! is called" do
         expect(subject.destroy_callbacks_called).to eq([])
         subject.destroy!
-        expect(subject.destroy_callbacks_called).to eq([:before, :around, :after])
+        expect(subject.destroy_callbacks_called).to eq([:before, :around_1, :around_2, :after])
       end
     end
   end

@@ -1,5 +1,4 @@
 require 'active_support/concern'
-require 'active_support/core_ext/object/duplicable'
 require 'active_model/attribute_methods'
 
 module Ripple

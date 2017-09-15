@@ -22,8 +22,8 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  spec.add_dependency "activesupport", "~> 3.2.12"
-  spec.add_dependency "activemodel", "~> 3.2.12"
+  spec.add_dependency "activesupport", "~> 4.2.8"
+  spec.add_dependency "activemodel", "~> 4.2.8"
   spec.add_dependency "riak-client", "~> 1.4.3"
   spec.add_dependency "json", "~> 1.8.6"
   spec.add_dependency "snappy", "~> 0.0.12"

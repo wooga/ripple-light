@@ -29,7 +29,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "snappy", "~> 0.0.12"
 
   spec.add_development_dependency "byebug", "~> 9.1.0"
-  spec.add_development_dependency "rspec", "~> 3.5.0"
+  spec.add_development_dependency "rspec", "~> 3.6.0"
   spec.add_development_dependency "rake", "~> 10.0.3"
   spec.add_development_dependency "benchmark-ips", "~> 2.3.0"
   spec.add_development_dependency "ruby-prof", "~> 0.15.8"
